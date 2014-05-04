@@ -1,0 +1,3 @@
+PODS_MKAUDIOKIT_HEADER_SEARCH_PATHS = ${PODS_ROOT}/libraries/audiobus/' + version + '/include/**
+PODS_MKAUDIOKIT_LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/MKAudioKit/libraries/audiobus/1.0.2.5/lib"
+PODS_MKAUDIOKIT_OTHER_LDFLAGS = -lAudiobus -framework Accelerate

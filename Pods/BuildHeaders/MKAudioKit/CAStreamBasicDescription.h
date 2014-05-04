@@ -1,0 +1,1 @@
+../../MKAudioKit/Classes/ProcessAudioFile/CAStreamBasicDescription.h

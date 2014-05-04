@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64BC9C15BC174C3B8E5C514E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D8F0DED4E14D4A9365E48D /* libPods.a */; };
 		A880D6E1191614B10033B154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E0191614B10033B154 /* Foundation.framework */; };
 		A880D6E3191614B10033B154 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E2191614B10033B154 /* CoreGraphics.framework */; };
 		A880D6E5191614B10033B154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E4191614B10033B154 /* UIKit.framework */; };
@@ -14,7 +15,7 @@
 		A880D6ED191614B10033B154 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D6EC191614B10033B154 /* main.m */; };
 		A880D6F1191614B10033B154 /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D6F0191614B10033B154 /* MKAppDelegate.m */; };
 		A880D6F4191614B10033B154 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A880D6F2191614B10033B154 /* Main.storyboard */; };
-		A880D6F7191614B10033B154 /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D6F6191614B10033B154 /* MKViewController.m */; };
+		A880D6F7191614B10033B154 /* MKViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D6F6191614B10033B154 /* MKViewController.mm */; };
 		A880D6F9191614B10033B154 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A880D6F8191614B10033B154 /* Images.xcassets */; };
 		A880D700191614B10033B154 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6FF191614B10033B154 /* XCTest.framework */; };
 		A880D701191614B10033B154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E0191614B10033B154 /* Foundation.framework */; };
@@ -22,6 +23,8 @@
 		A880D70A191614B10033B154 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A880D708191614B10033B154 /* InfoPlist.strings */; };
 		A880D70C191614B10033B154 /* ApoluneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D70B191614B10033B154 /* ApoluneTests.m */; };
 		A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */; };
+		A880D7221916ADE40033B154 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D7201916ACA10033B154 /* AudioToolbox.framework */; };
+		A880D7281916BC8E0033B154 /* MKApoluneCircuit.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20D8F0DED4E14D4A9365E48D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BB9564B36E347F8BB1B973D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		A880D6DD191614B10033B154 /* Apolune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apolune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A880D6E0191614B10033B154 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A880D6E2191614B10033B154 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,7 +52,7 @@
 		A880D6F0191614B10033B154 /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
 		A880D6F3191614B10033B154 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A880D6F5191614B10033B154 /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
-		A880D6F6191614B10033B154 /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
+		A880D6F6191614B10033B154 /* MKViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MKViewController.mm; sourceTree = "<group>"; };
 		A880D6F8191614B10033B154 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A880D6FE191614B10033B154 /* ApoluneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApoluneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A880D6FF191614B10033B154 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -56,6 +61,10 @@
 		A880D70B191614B10033B154 /* ApoluneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApoluneTests.m; sourceTree = "<group>"; };
 		A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHardwareControlSurfaceView.h; sourceTree = "<group>"; };
 		A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHardwareControlSurfaceView.m; sourceTree = "<group>"; };
+		A880D71E1916AC9B0033B154 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A880D7201916ACA10033B154 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A880D7261916BC8E0033B154 /* MKApoluneCircuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKApoluneCircuit.h; sourceTree = "<group>"; };
+		A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKApoluneCircuit.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +72,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A880D7221916ADE40033B154 /* AudioToolbox.framework in Frameworks */,
 				A880D6E3191614B10033B154 /* CoreGraphics.framework in Frameworks */,
 				A880D6E5191614B10033B154 /* UIKit.framework in Frameworks */,
 				A880D6E1191614B10033B154 /* Foundation.framework in Frameworks */,
+				64BC9C15BC174C3B8E5C514E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +100,7 @@
 				A880D705191614B10033B154 /* ApoluneTests */,
 				A880D6DF191614B10033B154 /* Frameworks */,
 				A880D6DE191614B10033B154 /* Products */,
+				2BB9564B36E347F8BB1B973D /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +116,13 @@
 		A880D6DF191614B10033B154 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A880D7201916ACA10033B154 /* AudioToolbox.framework */,
+				A880D71E1916AC9B0033B154 /* Accelerate.framework */,
 				A880D6E0191614B10033B154 /* Foundation.framework */,
 				A880D6E2191614B10033B154 /* CoreGraphics.framework */,
 				A880D6E4191614B10033B154 /* UIKit.framework */,
 				A880D6FF191614B10033B154 /* XCTest.framework */,
+				20D8F0DED4E14D4A9365E48D /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -119,7 +134,9 @@
 				A880D6F0191614B10033B154 /* MKAppDelegate.m */,
 				A880D6F2191614B10033B154 /* Main.storyboard */,
 				A880D6F5191614B10033B154 /* MKViewController.h */,
-				A880D6F6191614B10033B154 /* MKViewController.m */,
+				A880D6F6191614B10033B154 /* MKViewController.mm */,
+				A880D7261916BC8E0033B154 /* MKApoluneCircuit.h */,
+				A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */,
 				A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */,
 				A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */,
 				A880D6F8191614B10033B154 /* Images.xcassets */,
@@ -164,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A880D70F191614B10033B154 /* Build configuration list for PBXNativeTarget "Apolune" */;
 			buildPhases = (
+				2B799214DBA542B781D32EC8 /* Check Pods Manifest.lock */,
 				A880D6D9191614B10033B154 /* Sources */,
 				A880D6DA191614B10033B154 /* Frameworks */,
 				A880D6DB191614B10033B154 /* Resources */,
+				B8417D786ED74D709C0F538B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +269,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B799214DBA542B781D32EC8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8417D786ED74D709C0F538B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A880D6D9191614B10033B154 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -257,7 +309,8 @@
 			files = (
 				A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.m in Sources */,
 				A880D6F1191614B10033B154 /* MKAppDelegate.m in Sources */,
-				A880D6F7191614B10033B154 /* MKViewController.m in Sources */,
+				A880D6F7191614B10033B154 /* MKViewController.mm in Sources */,
+				A880D7281916BC8E0033B154 /* MKApoluneCircuit.mm in Sources */,
 				A880D6ED191614B10033B154 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +433,7 @@
 		};
 		A880D710191614B10033B154 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB9564B36E347F8BB1B973D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -393,6 +447,7 @@
 		};
 		A880D711191614B10033B154 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BB9564B36E347F8BB1B973D /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -463,6 +518,7 @@
 				A880D711191614B10033B154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A880D712191614B10033B154 /* Build configuration list for PBXNativeTarget "ApoluneTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +527,7 @@
 				A880D714191614B10033B154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

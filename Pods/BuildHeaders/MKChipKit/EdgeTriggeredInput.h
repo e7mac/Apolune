@@ -1,0 +1,1 @@
+../../MKChipKit/Classes/ChipIO/ChipInput/EdgeTriggeredInput.h

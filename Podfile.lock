@@ -1,0 +1,21 @@
+PODS:
+  - MKAudioKit (1.0.0):
+    - MKAudioKit/Audiobus
+  - MKAudioKit/Audiobus (1.0.0)
+  - MKChipKit (1.0.0)
+
+DEPENDENCIES:
+  - MKAudioKit (from `git@github.com:e7mac/MKAudioKit.git`)
+  - MKChipKit (from `git@github.com:e7mac/MKChipKit.git`)
+
+EXTERNAL SOURCES:
+  MKAudioKit:
+    :git: git@github.com:e7mac/MKAudioKit.git
+  MKChipKit:
+    :git: git@github.com:e7mac/MKChipKit.git
+
+SPEC CHECKSUMS:
+  MKAudioKit: e9eb5b204252c2d035936bc63c7791e95929a94f
+  MKChipKit: 4cac438ac6f070f5cae5c02bf220398879df9bb0
+
+COCOAPODS: 0.32.1

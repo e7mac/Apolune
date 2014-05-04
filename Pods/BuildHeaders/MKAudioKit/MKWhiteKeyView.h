@@ -1,0 +1,1 @@
+../../MKAudioKit/Classes/MKWhiteKeyView.h

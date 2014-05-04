@@ -1,0 +1,1 @@
+../../MKChipKit/Classes/Chip/Wavetable/SinWaveChip.h
