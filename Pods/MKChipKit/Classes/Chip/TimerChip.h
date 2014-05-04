@@ -15,7 +15,7 @@
 
 class TimerChip: public Chip
 {
-protected:
+public:
     bool mState;
     float mAccumulate;
     float mPhaseIncrement;

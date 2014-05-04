@@ -30,6 +30,9 @@
                             <constraint firstAttribute="trailing" secondItem="qst-Zl-96E" secondAttribute="trailing" id="wpl-Hb-CIP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="HardwareComponentView" destination="qst-Zl-96E" id="rlb-me-eMG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

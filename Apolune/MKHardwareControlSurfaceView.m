@@ -159,7 +159,7 @@
     [self.layerToConnection removeObjectForKey:[hitLayer description]];
     UIView *startView = removedConnection[0];
     UIView *endView = removedConnection[1];
-    [self.delegate connectionRemovedFrom:startView.tag to:endView.tag];
+    [self.delegate connectionRemovedFrom:(startView.tag-TAG_OFFSET) to:(endView.tag - TAG_OFFSET)];
   }
 }
 
@@ -177,7 +177,7 @@
   CAShapeLayer *lineLayer = [self makeLineLayer:self.layer lineFromPointA:startView.center toPointB:endView.center];
   [self.lineLayers addObject:lineLayer];
   [self.layerToConnection setObject:connection forKey:[lineLayer description]];
-  [self.delegate connectionMadeFrom:startView.tag to:endView.tag];
+  [self.delegate connectionMadeFrom:(startView.tag-TAG_OFFSET) to:(endView.tag-TAG_OFFSET)];
 }
 
 @end

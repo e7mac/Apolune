@@ -14,6 +14,10 @@ typedef void (^myAudioBlock)(AudioBufferList* ioData, UInt32 inNumberFrames, Aud
 
 @interface MKApoluneCircuit : NSObject
 
+-(void)setupCircuit;
 -(myAudioBlock)processBlock;
+
+-(void)makeConnectionFromChipOutput:(ChipOutput *)output toChipInput:(ChipInput *)input;
+-(void)removeConnectionFromChipInput:(ChipInput *)input;
 
 @end

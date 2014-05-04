@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol MKHardwareControlSurfaceView <NSObject>
+@protocol MKHardwareControlSurfaceViewDelegate <NSObject>
 
 -(void)connectionMadeFrom:(int)a to:(int)b;
 -(void)connectionRemovedFrom:(int)a to:(int)b;
@@ -17,6 +17,6 @@
 
 @interface MKHardwareControlSurfaceView : UIView
 
-@property (nonatomic, weak) id<MKHardwareControlSurfaceView> delegate;
+@property (nonatomic, weak) id<MKHardwareControlSurfaceViewDelegate> delegate;
 
 @end
