@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>59AEA441-6652-4DC0-BABA-CE27FC5D2D09</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Apolune</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>381F49CF-A07C-4264-AA26-D66DA3AB8E01</key>
+		<string>https://github.com/e7mac/Apolune.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Apolune.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>381F49CF-A07C-4264-AA26-D66DA3AB8E01</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/e7mac/Apolune.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>381F49CF-A07C-4264-AA26-D66DA3AB8E01</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>381F49CF-A07C-4264-AA26-D66DA3AB8E01</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apolune</string>
+		</dict>
+	</array>
+</dict>
+</plist>
