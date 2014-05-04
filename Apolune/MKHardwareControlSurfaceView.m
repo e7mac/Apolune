@@ -7,6 +7,7 @@
 //
 
 #import "MKHardwareControlSurfaceView.h"
+#import "MKHardwareComponentView.h"
 
 #define TAG_OFFSET 666
 
@@ -79,13 +80,15 @@
     for (int j=0;j<numRows;j++) {
       float x = i * width;
       float y = j * height;
-      UIView *view = [[UIView alloc] initWithFrame:CGRectMake(x, y, width, height)];
+      MKHardwareComponentView *view = [[MKHardwareComponentView alloc] initWithFrame:CGRectMake(x, y, width, height)];
       [self addSubview:view];
-      view.backgroundColor = [UIColor colorWithWhite:arc4random()%100/100.0 alpha:1];
+      view.alpha = arc4random()%100/100.0;
+      view.mode = arc4random()%2;
       view.tag = TAG_OFFSET + i * numRows + j;
     }
   }
 }
+
 
 -(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -160,9 +163,16 @@
   }
 }
 
--(void)connectStartView:(UIView *)startView toEndView:(UIView *)endView
+-(void)connectStartView:(MKHardwareComponentView *)startView toEndView:(MKHardwareComponentView *)endView
 {
-  if (!startView || !endView || startView == endView || endView == self) return;
+  if (!startView || !endView || startView == endView || (UIView *)endView == self) return;
+  if (startView.mode == endView.mode) return;
+  if (startView.mode == MKHardwareComponentViewModeOutput) {
+    //swap views
+    MKHardwareComponentView *tempView = startView;
+    startView = endView;
+    endView = tempView;
+  }
   NSArray *connection = @[startView, endView];
   CAShapeLayer *lineLayer = [self makeLineLayer:self.layer lineFromPointA:startView.center toPointB:endView.center];
   [self.lineLayers addObject:lineLayer];
