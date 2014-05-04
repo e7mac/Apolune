@@ -21,6 +21,7 @@
 		A880D702191614B10033B154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E4191614B10033B154 /* UIKit.framework */; };
 		A880D70A191614B10033B154 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A880D708191614B10033B154 /* InfoPlist.strings */; };
 		A880D70C191614B10033B154 /* ApoluneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D70B191614B10033B154 /* ApoluneTests.m */; };
+		A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A880D707191614B10033B154 /* ApoluneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApoluneTests-Info.plist"; sourceTree = "<group>"; };
 		A880D709191614B10033B154 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A880D70B191614B10033B154 /* ApoluneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApoluneTests.m; sourceTree = "<group>"; };
+		A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHardwareControlSurfaceView.h; sourceTree = "<group>"; };
+		A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHardwareControlSurfaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				A880D6F2191614B10033B154 /* Main.storyboard */,
 				A880D6F5191614B10033B154 /* MKViewController.h */,
 				A880D6F6191614B10033B154 /* MKViewController.m */,
+				A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */,
+				A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */,
 				A880D6F8191614B10033B154 /* Images.xcassets */,
 				A880D6E7191614B10033B154 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.m in Sources */,
 				A880D6F1191614B10033B154 /* MKAppDelegate.m in Sources */,
 				A880D6F7191614B10033B154 /* MKViewController.m in Sources */,
 				A880D6ED191614B10033B154 /* main.m in Sources */,
