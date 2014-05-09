@@ -18,5 +18,6 @@
 @interface MKHardwareControlSurfaceView : UIView
 
 @property (nonatomic, weak) id<MKHardwareControlSurfaceViewDelegate> delegate;
+@property (nonatomic, strong) NSArray *blueprint;
 
 @end

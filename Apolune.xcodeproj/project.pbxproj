@@ -22,10 +22,12 @@
 		A880D702191614B10033B154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E4191614B10033B154 /* UIKit.framework */; };
 		A880D70A191614B10033B154 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A880D708191614B10033B154 /* InfoPlist.strings */; };
 		A880D70C191614B10033B154 /* ApoluneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D70B191614B10033B154 /* ApoluneTests.m */; };
-		A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */; };
+		A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.mm */; };
 		A880D7221916ADE40033B154 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D7201916ACA10033B154 /* AudioToolbox.framework */; };
 		A880D7281916BC8E0033B154 /* MKApoluneCircuit.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */; };
-		A880D72B1916C82C0033B154 /* MKHardwareComponentView.m in Sources */ = {isa = PBXBuildFile; fileRef = A880D72A1916C82C0033B154 /* MKHardwareComponentView.m */; };
+		A880D72B1916C82C0033B154 /* MKHardwareComponentView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D72A1916C82C0033B154 /* MKHardwareComponentView.mm */; };
+		A880D72E1916FE660033B154 /* MKBlueprintItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D72D1916FE660033B154 /* MKBlueprintItem.mm */; };
+		A8CAC688191C9EAB00F96822 /* MKCircuitConnection.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8CAC687191C9EAB00F96822 /* MKCircuitConnection.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,13 +63,17 @@
 		A880D709191614B10033B154 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A880D70B191614B10033B154 /* ApoluneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApoluneTests.m; sourceTree = "<group>"; };
 		A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHardwareControlSurfaceView.h; sourceTree = "<group>"; };
-		A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHardwareControlSurfaceView.m; sourceTree = "<group>"; };
+		A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKHardwareControlSurfaceView.mm; sourceTree = "<group>"; };
 		A880D71E1916AC9B0033B154 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		A880D7201916ACA10033B154 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		A880D7261916BC8E0033B154 /* MKApoluneCircuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKApoluneCircuit.h; sourceTree = "<group>"; };
 		A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKApoluneCircuit.mm; sourceTree = "<group>"; };
 		A880D7291916C82C0033B154 /* MKHardwareComponentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKHardwareComponentView.h; sourceTree = "<group>"; };
-		A880D72A1916C82C0033B154 /* MKHardwareComponentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKHardwareComponentView.m; sourceTree = "<group>"; };
+		A880D72A1916C82C0033B154 /* MKHardwareComponentView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKHardwareComponentView.mm; sourceTree = "<group>"; };
+		A880D72C1916FE660033B154 /* MKBlueprintItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlueprintItem.h; sourceTree = "<group>"; };
+		A880D72D1916FE660033B154 /* MKBlueprintItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKBlueprintItem.mm; sourceTree = "<group>"; };
+		A8CAC686191C9EAB00F96822 /* MKCircuitConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCircuitConnection.h; sourceTree = "<group>"; };
+		A8CAC687191C9EAB00F96822 /* MKCircuitConnection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKCircuitConnection.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,11 +145,15 @@
 				A880D6F5191614B10033B154 /* MKViewController.h */,
 				A880D6F6191614B10033B154 /* MKViewController.mm */,
 				A880D7261916BC8E0033B154 /* MKApoluneCircuit.h */,
+				A8CAC686191C9EAB00F96822 /* MKCircuitConnection.h */,
+				A8CAC687191C9EAB00F96822 /* MKCircuitConnection.mm */,
 				A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */,
 				A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */,
-				A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.m */,
+				A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.mm */,
 				A880D7291916C82C0033B154 /* MKHardwareComponentView.h */,
-				A880D72A1916C82C0033B154 /* MKHardwareComponentView.m */,
+				A880D72A1916C82C0033B154 /* MKHardwareComponentView.mm */,
+				A880D72C1916FE660033B154 /* MKBlueprintItem.h */,
+				A880D72D1916FE660033B154 /* MKBlueprintItem.mm */,
 				A880D6F8191614B10033B154 /* Images.xcassets */,
 				A880D6E7191614B10033B154 /* Supporting Files */,
 			);
@@ -312,8 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A880D72B1916C82C0033B154 /* MKHardwareComponentView.m in Sources */,
-				A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.m in Sources */,
+				A880D72E1916FE660033B154 /* MKBlueprintItem.mm in Sources */,
+				A880D72B1916C82C0033B154 /* MKHardwareComponentView.mm in Sources */,
+				A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.mm in Sources */,
+				A8CAC688191C9EAB00F96822 /* MKCircuitConnection.mm in Sources */,
 				A880D6F1191614B10033B154 /* MKAppDelegate.m in Sources */,
 				A880D6F7191614B10033B154 /* MKViewController.mm in Sources */,
 				A880D7281916BC8E0033B154 /* MKApoluneCircuit.mm in Sources */,

@@ -8,6 +8,7 @@
 
 #import "MKHardwareControlSurfaceView.h"
 #import "MKHardwareComponentView.h"
+#import "MKBlueprintItem.h"
 
 #define TAG_OFFSET 666
 
@@ -72,21 +73,6 @@
 
 -(void)commonInit
 {
-  int numRows = 10;
-  int numCols = 10;
-  float width = self.bounds.size.width/numCols;
-  float height = self.bounds.size.height/numRows;
-  for (int i=0;i<numCols;i++) {
-    for (int j=0;j<numRows;j++) {
-      float x = i * width;
-      float y = j * height;
-      MKHardwareComponentView *view = [[MKHardwareComponentView alloc] initWithFrame:CGRectMake(x, y, width, height)];
-      [self addSubview:view];
-      view.alpha = arc4random()%100/100.0;
-      view.mode = arc4random()%2;
-      view.tag = TAG_OFFSET + i * numRows + j;
-    }
-  }
 }
 
 
@@ -167,7 +153,7 @@
 {
   if (!startView || !endView || startView == endView || (UIView *)endView == self) return;
   if (startView.mode == endView.mode) return;
-  if (startView.mode == MKHardwareComponentViewModeOutput) {
+  if (startView.mode == MKHardwareComponentViewModeInput) {
     //swap views
     MKHardwareComponentView *tempView = startView;
     startView = endView;
@@ -178,6 +164,47 @@
   [self.lineLayers addObject:lineLayer];
   [self.layerToConnection setObject:connection forKey:[lineLayer description]];
   [self.delegate connectionMadeFrom:(startView.tag-TAG_OFFSET) to:(endView.tag-TAG_OFFSET)];
+}
+
+-(void)setBlueprint:(NSArray *)blueprint
+{
+  _blueprint = blueprint;
+  if (blueprint) {
+    [self relayViewsFromBlueprint];
+  }
+}
+
+-(void)relayViewsFromBlueprint
+{
+  [self.subviews enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    UIView *view = (UIView *)obj;
+    [view removeFromSuperview];
+  }];
+  int tag = TAG_OFFSET;
+  for (MKBlueprintItem *item in self.blueprint) {
+    NSString *type = item.type;
+    CGRect rect = item.location;
+    if ([type isEqualToString:@"BananaJack"]) {
+      BOOL io = item.pinIsOutput;
+      MKHardwareComponentView *view = [[MKHardwareComponentView alloc] initWithFrame:rect];
+      [self addSubview:view];
+      view.alpha = arc4random()%100/100.0;
+      if (io) {
+        view.mode = MKHardwareComponentViewModeOutput;
+      } else {
+        view.mode = MKHardwareComponentViewModeInput;
+      }
+      view.tag = tag;
+      tag++;
+    } else if ([type isEqualToString:@"Knob"]) {
+      MKHardwareComponentView *view = [[MKHardwareComponentView alloc] initWithFrame:rect];
+      [self addSubview:view];
+      view.alpha = arc4random()%100/100.0;
+      view.backgroundColor = [UIColor blackColor];
+      view.tag = tag;
+      tag++;
+    }
+  }
 }
 
 @end

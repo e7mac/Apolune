@@ -16,44 +16,45 @@ short Chip::nbits = NBITS;
 int Chip::srate = SRATE;
 short Register::nbits = NBITS;
 
-@implementation MKApoluneCircuit {
-  CircuitBoard circuitBoard;
-  
-  TimerChip timer1;
-  TimerChip timer2;
-  
-  CounterChip osc1;
-  CounterChip osc2;
-
-  NandBinaryGate bendNand1;
-  XorBinaryGate  bendXor1;
-  CounterChip    bendCounter1;
-  
+@implementation MKApoluneCircuit {  
   __block void (^audioBlock)(AudioBufferList* ioData, UInt32 inNumberFrames, AudioTimeStamp *timestamp, AudioStreamBasicDescription asbd);
 }
 
 -(void)setupCircuit
 {
-  circuitBoard.addChip(&timer1);
-  circuitBoard.addChip(&timer2);
-  circuitBoard.addChip(&osc1);
-  circuitBoard.addChip(&osc2);
-  circuitBoard.addChip(&bendNand1);
-  circuitBoard.addChip(&bendCounter1);
+  _circuitBoard = new CircuitBoard;
+  _timer1 = new TimerChip;
+  _timer2 = new TimerChip;
   
-  circuitBoard.addConnection(&timer1.output, &osc1.input);
-  circuitBoard.addConnection(&timer2.output, &osc2.input);
+  _osc1 = new CounterChip;
+  _osc2 = new CounterChip;
   
-  circuitBoard.addConnection(&osc1.output[0],         &bendCounter1.input);
-  circuitBoard.addConnection(&bendCounter1.output[2], &bendNand1.input[0]);
-  circuitBoard.addConnection(&bendCounter1.output[3], &bendNand1.input[1]);
-  circuitBoard.addConnection(&bendNand1.output,       &bendXor1.input[0] );
-  circuitBoard.addConnection(&osc2.output[0],         &bendXor1.input[1] );
+  _bendNand1 = new NandBinaryGate;
+  _bendXor1 = new XorBinaryGate;
+  _bendCounter1 = new CounterChip;
   
-  circuitBoard.updateConnections();
   
-  timer1.setFrequency(0.008);
-  timer2.setFrequency(0.045);
+  
+  _circuitBoard->addChip(_timer1);
+  _circuitBoard->addChip(_timer2);
+  _circuitBoard->addChip(_osc1);
+  _circuitBoard->addChip(_osc2);
+  _circuitBoard->addChip(_bendNand1);
+  _circuitBoard->addChip(_bendCounter1);
+  
+  _circuitBoard->addConnection(&_timer1->output, &_osc1->input);
+  _circuitBoard->addConnection(&_timer2->output, &_osc2->input);
+  
+  _circuitBoard->addConnection(&_osc1->output[0],         &_bendCounter1->input);
+  _circuitBoard->addConnection(&_bendCounter1->output[2], &_bendNand1->input[0]);
+  _circuitBoard->addConnection(&_bendCounter1->output[3], &_bendNand1->input[1]);
+  _circuitBoard->addConnection(&_bendNand1->output,       &_bendXor1->input[0] );
+  _circuitBoard->addConnection(&_osc2->output[0],         &_bendXor1->input[1] );
+  
+  _circuitBoard->updateConnections();
+  
+  _timer1->setFrequency(0.008);
+  _timer2->setFrequency(0.045);
 }
 
 
@@ -80,11 +81,11 @@ short Register::nbits = NBITS;
 //          sampleFloat[currentChannel] = (float)sample / MAX_SINT32; // convert to float for DSP
           
           for (int jIndex=0; jIndex < Chip::nbits; jIndex++) {
-            circuit->circuitBoard.tick(); // twice, up and down for each bit, speedy loop unrolling
-            circuit->circuitBoard.tick();
+            circuit->_circuitBoard->tick(); // twice, up and down for each bit, speedy loop unrolling
+            circuit->_circuitBoard->tick();
           }
 //          float xorOutput = circuit->bendXor1.output.outputBit;
-          float xorOutput = circuit->bendXor1.output.outputBit;
+          float xorOutput = circuit->_bendXor1->output.outputBit;
 //          NSLog(@"%f", xorOutput);
           
           // get int back
@@ -104,15 +105,28 @@ short Register::nbits = NBITS;
 
 -(void)makeConnectionFromChipOutput:(ChipOutput *)output toChipInput:(ChipInput *)input
 {
-  circuitBoard.addConnection(output, input);
-  circuitBoard.updateConnections();
+  _circuitBoard->addConnection(output, input);
+  _circuitBoard->updateConnections();
 }
 
 
 -(void)removeConnectionFromChipInput:(ChipInput *)input
 {
-  circuitBoard.removeConnection(input);
-  circuitBoard.updateConnections();
+  _circuitBoard->removeConnection(input);
+  _circuitBoard->updateConnections();
+}
+
+-(void)dealloc
+{
+  free(_timer1);
+  free(_timer2);
+  
+  free(_osc1);
+  free(_osc2);
+  
+  free(_bendNand1);
+  free(_bendXor1);
+  free(_bendCounter1);
 }
 
 @end

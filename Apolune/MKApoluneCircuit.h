@@ -14,6 +14,19 @@ typedef void (^myAudioBlock)(AudioBufferList* ioData, UInt32 inNumberFrames, Aud
 
 @interface MKApoluneCircuit : NSObject
 
+
+@property (nonatomic, assign) CircuitBoard *circuitBoard;
+
+@property (nonatomic, assign) TimerChip *timer1;
+@property (nonatomic, assign) TimerChip *timer2;
+
+@property (nonatomic, assign) CounterChip *osc1;
+@property (nonatomic, assign) CounterChip *osc2;
+
+@property (nonatomic, assign) NandBinaryGate *bendNand1;
+@property (nonatomic, assign) XorBinaryGate  *bendXor1;
+@property (nonatomic, assign) CounterChip    *bendCounter1;
+
 -(void)setupCircuit;
 -(myAudioBlock)processBlock;
 
