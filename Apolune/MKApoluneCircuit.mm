@@ -9,7 +9,7 @@
 #import "MKApoluneCircuit.h"
 
 #define MAX_SINT32 32767
-#define SRATE 8000
+#define SRATE 16000
 #define NBITS 10
 
 short Chip::nbits = NBITS;
@@ -64,9 +64,8 @@ short Register::nbits = NBITS;
   audioBlock = ^(AudioBufferList *ioData, UInt32 inNumberFrames, AudioTimeStamp *timestamp, AudioStreamBasicDescription asbd) {
     AudioSampleType sample = 0;
     UInt32 bytesPerChannel = asbd.mBytesPerFrame/asbd.mChannelsPerFrame;
-    MKApoluneCircuit *circuit;
+    __strong MKApoluneCircuit *circuit;
     circuit = weakSelf;
-    
     for (int bufCount=0; bufCount<ioData->mNumberBuffers; bufCount++) {
       AudioBuffer buf = ioData->mBuffers[bufCount];
       int currentFrame = 0;
@@ -79,17 +78,20 @@ short Register::nbits = NBITS;
           //sample access here
 //          static float sampleFloat[2];
 //          sampleFloat[currentChannel] = (float)sample / MAX_SINT32; // convert to float for DSP
-          
+          static float output = 0;
+          if (currentChannel == 0) {
           for (int jIndex=0; jIndex < Chip::nbits; jIndex++) {
             circuit->_circuitBoard->tick(); // twice, up and down for each bit, speedy loop unrolling
             circuit->_circuitBoard->tick();
           }
-//          float xorOutput = circuit->bendXor1.output.outputBit;
           float xorOutput = circuit->_bendXor1->output.outputBit;
-//          NSLog(@"%f", xorOutput);
-          
+//          float xorOutput = circuit->_bendXor1->output.outputBit;
+//          output = circuit->_timer1->output.outputBit;
+//          NSLog(@"%f", output);
+//          output = xorOutput;
           // get int back
-          sample = ((xorOutput*2.0)-1) * MAX_SINT32;
+          }
+          sample = ((output*2.0)-1) * MAX_SINT32;
           //copy sample back
           memcpy((char *)buf.mData + (currentFrame * asbd.mBytesPerFrame) +
                  (currentChannel * bytesPerChannel),

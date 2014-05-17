@@ -11,7 +11,6 @@
 #import "MKApoluneCircuit.h"
 #import "MKHardwareControlSurfaceView.h"
 #import "MKBlueprintItem.h"
-#import "MKCircuitConnection.h"
 
 @interface MKViewController () <MKHardwareControlSurfaceViewDelegate>
 
@@ -48,9 +47,11 @@
   self.HardwareComponentView.delegate = self;
   
   self.audioController = [AudioController sharedInstance];
-  [self.audioController setupAudioSessionRequestingSampleRate:8000];
+  [self.audioController setupAudioSessionRequestingSampleRate:16000];
   [self.apoluneCircuit setupCircuit];
-  [self.audioController setupProcessBlockWithAudioCallback:self.apoluneCircuit.processBlock];
+//  [self.audioController setupProcessBlockWithAudioCallback:self.apoluneCircuit.processBlock];
+  [self.audioController setupProcessBlockWithAudioCallback:^(AudioBufferList *ioData, UInt32 inNumberFrames, AudioTimeStamp *timestamp, AudioStreamBasicDescription asbd) {
+  }];
   [self.audioController setupDone];
   [self createBlueprint];
 }
@@ -92,7 +93,11 @@
   i = [[MKBlueprintItem alloc] init];
   i.type = @"Knob";
   i.location = CGRectMake(0, 0, self.view.bounds.size.width/2, self.view.bounds.size.height/numRows);
-  
+  i.process = ^void(float value) {
+    NSLog(@"%f", value);
+    self.apoluneCircuit.timer1->setFrequency(0.005*powf(2.0,value*log2f(0.5/Chip::nbits/0.005)));
+//    self.apoluneCircuit.timer1->setFrequency(0.01);
+  };
   [array addObject:i];
   
   i = [[MKBlueprintItem alloc] init];
@@ -107,6 +112,10 @@
   i = [[MKBlueprintItem alloc] init];
   i.type = @"Knob";
   i.location = CGRectMake(0, self.view.bounds.size.height/numRows, self.view.bounds.size.width/2, self.view.bounds.size.height/numRows);
+  i.process = ^void(float value) {
+    NSLog(@"%f", value);
+    self.apoluneCircuit.timer2->setFrequency(0.0005*powf(2.0,value*log2f(0.5/Chip::nbits/0.0005)));
+  };
   [array addObject:i];
   
   i = [[MKBlueprintItem alloc] init];

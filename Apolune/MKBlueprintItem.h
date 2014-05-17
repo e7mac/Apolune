@@ -16,4 +16,6 @@
 @property (nonatomic, assign) ChipIO *pin;
 @property (nonatomic, assign) BOOL pinIsOutput;
 
+@property (nonatomic, copy) void (^process)(float value);
+
 @end

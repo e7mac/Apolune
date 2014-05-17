@@ -1,3755 +1,1024 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>0011623B1BA04128BFBD2BFA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>49C5B95C82F04961A2D6027B</string>
-				<string>1B5A3A19890E455EB48FB015</string>
-				<string>F5A4CD31B20D40E89D6328F9</string>
-				<string>A723D6866E8043E68BE99031</string>
-				<string>699635B0D1D7423FBF307DA5</string>
-				<string>07BD20E6E74C4D51BB49D160</string>
-				<string>92716E729C324C85A136A942</string>
-				<string>F1219346C51C40119396116A</string>
-				<string>E82D7EEA9936440E862470C5</string>
-				<string>97BA7B37910C455D90A1D576</string>
-				<string>67D62DFA0AA245ECB21F37A3</string>
-				<string>C513493521A6455C88CCCEF2</string>
-				<string>077F311E0B4F4DEBB3AF2DBC</string>
-				<string>579FD303E28142389D874BF4</string>
-				<string>40E2B1EADF6046228E0C017D</string>
-				<string>EAE69868310C4FF092813DEC</string>
-				<string>9D0721CAE7614C11AC91EE7C</string>
-				<string>AE9F6BC1AE234B03914246FF</string>
-				<string>41737B8255194451954F6704</string>
-				<string>48A31663C3AE4BDAA2720C47</string>
-				<string>D7FF32097D8F4E1BB4412919</string>
-				<string>2DCE31136C0941E79EEC9565</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>01A2FBF01A0945F097E97978</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Audiobus.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/Audiobus.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>03960795CEED40B8A10F7A78</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>64CEDC35AF6842A19CF2A25E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-MKChipKit-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>03AA0BCFA02145C985A4935E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C7B2AA524B9A4D0AA33D8189</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>046EDC93DAFC49B297CB2160</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2B3EC749423A499DA4580D8F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>BA79701D7B454B9E9A642435</string>
-			<key>remoteInfo</key>
-			<string>Pods-MKAudioKit</string>
-		</dict>
-		<key>063D4D6E00694257AD61DE6F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MKChipKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>077F311E0B4F4DEBB3AF2DBC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>23A807548710406EBE7AC047</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>07BD20E6E74C4D51BB49D160</key>
-		<dict>
-			<key>fileRef</key>
-			<string>89FC211741054934870A804B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0868C40052174B79A6D437F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SerialOutput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipOutput/SerialOutput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>08DAFB0A0B994DA487AAC470</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DelayChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/DelayChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0926F32757CD46F4B9E4F8B3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>15490CBA9D44409AA8112131</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0BD90861A1E54FD2A1FA17BF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CAMath.h</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CAMath.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C11681DC09E4052BA8F13D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AudioController.mm</string>
-			<key>path</key>
-			<string>Classes/AudioController.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C61C3423AD548FAB7417257</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>9382095662F84B17B43C88FF</string>
-			<key>targetProxy</key>
-			<string>286B888649BC46F19235B838</string>
-		</dict>
-		<key>0C67A4CF536545069B94C13F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>WavetableChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Wavetable/WavetableChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0E344A64748645D48FBE5723</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2D5F3CADE28E4023A53C8425</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0EBC72178C3A4F36A42EA307</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC3C9D51422C44CFBCB59D3A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>111E558BBF234EFEAC76E275</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>4F33ECDAC9384BE797209796</string>
-				<string>B955858B30F7494D98C268D9</string>
-				<string>30E48AFF37BA4D85A80D1FC3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1199916763584A379196427C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ChipOutput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipOutput/ChipOutput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>11EAD7D3817E43C182E036F1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F169DCEBFC374A86A7A5BF44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1393CC4D2860489D9176B8F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>WavetableChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Wavetable/WavetableChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>15490CBA9D44409AA8112131</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CounterChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/CounterChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1603125394A4453AB16DE54E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ChipInput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/ChipInput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>161893C9BD1F4878B9B6F0D5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XorBinaryGate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/XorBinaryGate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>179BCA3718304DD6A17490C3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>68920403C8CA49DBAD62E8F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18A8036013084392B8558E92</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C8AED80672A4DB4894EB0B1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1AA9D132385C49DA98F6B1EF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SinWaveChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Wavetable/SinWaveChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1ADC0BF1DE844FB29F4A5B3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ChipIO.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipIO.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B447B9CFC2B4B3F984A3CB9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4E0FB72B13754B12A54F0D66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>1B5A3A19890E455EB48FB015</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6C04C1FF4BD84C378C767E28</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1BDE131165724A34B660AC9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SerialInput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/SerialInput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1C2F0F6F1BD34123B9816A93</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>C2614151BE8841C8954B85EA</string>
-				<string>4D525A4110784597B3F3423C</string>
-				<string>7CA2D52E91DD4301B331CEB7</string>
-				<string>EB50069892444F79A18F143B</string>
-				<string>B0A7930E0EBA4191A2145F7D</string>
-				<string>94B0D46943474557A19C9E2F</string>
-				<string>03AA0BCFA02145C985A4935E</string>
-				<string>F3AC0B1877F5473E84ECF7B4</string>
-				<string>F9FB4CE5E6BA4E45A2B0288D</string>
-				<string>6DC0925337BF44B1B545397E</string>
-				<string>5DD634EF43334D7AA6924D73</string>
-				<string>F0399B591CFA48EC812D0ED1</string>
-				<string>27D32AB5746B4EDBABBF809A</string>
-				<string>E630AC389A444E73A55BCEDC</string>
-				<string>2E160A9D5F0C46CFB6E585D4</string>
-				<string>DEBFFF73834E4000B8B9DBF9</string>
-				<string>591F2BF4F57A4A1FAA912B17</string>
-				<string>322C66DBD03C4D46A1B15309</string>
-				<string>76463D8F3DAA4197BDAA6B5B</string>
-				<string>531BC9A1C8AD426C8EACFCFF</string>
-				<string>AE90475C3E1546889364027F</string>
-				<string>9B6B519858E144FDB72B753F</string>
-				<string>887151B6FE9541E09887676D</string>
-				<string>5FE0EC0D71BE4584BEA9B790</string>
-				<string>91BEDC71AD244986963D1320</string>
-				<string>9E0E9E4260304F228C072EC4</string>
-				<string>DD0ABD13D55B4B8C96B2BA8F</string>
-				<string>9EE07DFFBAF040519E3E4DAE</string>
-				<string>3DA19B6C474B4877B6E3D587</string>
-				<string>6DF3F738C6034B87918E7882</string>
-				<string>E74BC8F3BC8F467784D34307</string>
-				<string>DC9D32BD52C2495AA569D475</string>
-				<string>2E0AFFD693B94915AC29C5FC</string>
-				<string>A98BC028591E4B9794F8A097</string>
-				<string>1B447B9CFC2B4B3F984A3CB9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1C78F4B53E574FAB8EA81254</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ResetTimerChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/ResetTimerChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1DB457A4E3BE42588CAED73C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MKAudioKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>1DC5A5F9A4024B8D874D932F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F2D66400D9824784B69C3C52</string>
-				<string>0EBC72178C3A4F36A42EA307</string>
-				<string>B6F6C0D1A0D74103A7922330</string>
-				<string>562AC28CF6ED4C3AA2E07CEE</string>
-				<string>C40D868750594692B85595E3</string>
-				<string>465D10E9E1854869B0EEBDB5</string>
-				<string>A8B368A7CC4A463E81BE8D8E</string>
-				<string>34D27A8D51BE4E40A68836BF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1E94C0F17E9248B5942B7010</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>1FDD6A2EC33546958588A3C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C44D14DCB947407FADA0C0AF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1FFF44EC9DF747E680D3ADBE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABPort.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABPort.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>20C985644E134D399C7EB7E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NandBinaryGate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/NandBinaryGate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2253E9193F224FFA867DA24B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>GroundChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/GroundChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>226D7798822E4AAAB0D9121C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1603125394A4453AB16DE54E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>22D4D649341C4E1FA7E439C1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>43EB94E2A43344DBAC988E26</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>23A807548710406EBE7AC047</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AudioController.h</string>
-			<key>path</key>
-			<string>Classes/AudioController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27D32AB5746B4EDBABBF809A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>33D5C5BA376F4BA7A070C132</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>286B888649BC46F19235B838</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>2B3EC749423A499DA4580D8F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>9382095662F84B17B43C88FF</string>
-			<key>remoteInfo</key>
-			<string>Pods-MKChipKit</string>
-		</dict>
-		<key>289565FA30FE43D7A1E3AFFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>342E5DEC014F41B182B7AC47</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2B3EC749423A499DA4580D8F</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>FC6806C169174C36A52B164E</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>FF16F684AD8E4A9F8BF0C15E</string>
-			<key>productRefGroup</key>
-			<string>B84E91699E7540F0A784A58C</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>959AB17941004781BDD4D646</string>
-				<string>BA79701D7B454B9E9A642435</string>
-				<string>9382095662F84B17B43C88FF</string>
-			</array>
-		</dict>
-		<key>2D328D8A7EC6497782EDB93B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ResetTimerChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/ResetTimerChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D5F3CADE28E4023A53C8425</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F580007FD111401499417A48</string>
-				<string>F256B6BA89164DD1B7145A36</string>
-				<string>51CAB97F25FE46D08466356B</string>
-				<string>E0E3EE9476B24FE09442F281</string>
-				<string>65C23964FEEF453B9282BA5F</string>
-				<string>9AE081613BCD4CF2B796994A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2DCE31136C0941E79EEC9565</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F3CE05E43360453395700CC2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2E0AFFD693B94915AC29C5FC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F0C5A996C7D5490CB744A114</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>2E160A9D5F0C46CFB6E585D4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4EF1DCAEBC124229B7C3CCCE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>30670CCE63F24A15B5129DBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABCommon.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABCommon.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>30E48AFF37BA4D85A80D1FC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CEB2DF6435014F968DBCA11C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3114C148E7BC4D239918EE07</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CADebugMacros.h</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CADebugMacros.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>311BFA782D2642E097291AB7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA9717FF51B849CAB1314A60</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3174D2D0D33448A696393CA5</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>575ECA32487940409B6B9BB1</string>
-				<string>03960795CEED40B8A10F7A78</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>322C66DBD03C4D46A1B15309</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9AAC10593B0940BFBE1D629B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>33D5C5BA376F4BA7A070C132</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>EdgeTriggeredInput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/EdgeTriggeredInput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>342E5DEC014F41B182B7AC47</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NandBinaryGate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/NandBinaryGate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3487100046F34AC88FC0400E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DacChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/DacChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>34D27A8D51BE4E40A68836BF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DE1B3BFF2AD4A2AA7D895AE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>35F3E4D546DF4DEC8E41E164</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SingleBitInput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/SingleBitInput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3627B70B2F7E4E7FB25D590D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A56FD2ABB4984586B60F2880</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>375FCFE3C7DE4F26BA3C9C15</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MKWhiteKeyView.h</string>
-			<key>path</key>
-			<string>Classes/MKWhiteKeyView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3952739196EA4E3A9D834548</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F08702E8758B43C596A2AA21</string>
-				<string>64CEDC35AF6842A19CF2A25E</string>
-				<string>063D4D6E00694257AD61DE6F</string>
-				<string>9570A1A0526348269F55205D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>39532F6141F84E769A3B9639</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>DacChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/DacChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B9B8405C26A4F20BEA85AC2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>9A81472D668A4ED3A2B9F0A1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DA19B6C474B4877B6E3D587</key>
-		<dict>
-			<key>fileRef</key>
-			<string>588E6DA165384578812F44AA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>40E2B1EADF6046228E0C017D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3114C148E7BC4D239918EE07</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>41737B8255194451954F6704</key>
-		<dict>
-			<key>fileRef</key>
-			<string>42677FA846E34A79BB3A940D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>41E73E547DF149B5B3937744</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FrequencyControlWordChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/FrequencyControlWordChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>42677FA846E34A79BB3A940D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CAXException.h</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CAXException.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4269900F81AB43EA869F3228</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>23A807548710406EBE7AC047</string>
-				<string>0C11681DC09E4052BA8F13D9</string>
-				<string>3114C148E7BC4D239918EE07</string>
-				<string>FC3C9D51422C44CFBCB59D3A</string>
-				<string>F70E9E63F0214DFA8C232A19</string>
-				<string>0BD90861A1E54FD2A1FA17BF</string>
-				<string>61E4B866130C4211AE22A495</string>
-				<string>EFA0C3121B8B4AF388331713</string>
-				<string>6072F34F11B444BD8C60886B</string>
-				<string>42677FA846E34A79BB3A940D</string>
-				<string>BD86F8271F3941C8819307F9</string>
-				<string>A9DD9B7F7B0D495782F5970C</string>
-				<string>375FCFE3C7DE4F26BA3C9C15</string>
-				<string>E1DFA13701D14C169E5BF99E</string>
-				<string>F3CE05E43360453395700CC2</string>
-				<string>4DE1B3BFF2AD4A2AA7D895AE</string>
-				<string>83155E24AC104233BB4340CB</string>
-				<string>87CDA2C9BB5C48B1A8715136</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MKAudioKit</string>
-			<key>path</key>
-			<string>MKAudioKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>43EB94E2A43344DBAC988E26</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libAudiobus.a</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/lib/libAudiobus.a</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>465D10E9E1854869B0EEBDB5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E1DFA13701D14C169E5BF99E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>46EA19108DBC40AFB6F8D47A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B728CDCBE2F2483A90893F4C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>48A31663C3AE4BDAA2720C47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BD86F8271F3941C8819307F9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>49774C6D24274996B8406329</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6DE85556185047E2BF53EC5C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-MKAudioKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>49C5B95C82F04961A2D6027B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C395DB708AEF460B916D6A3E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B11726CB5964DB7A848B0AF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>FBC9CB01EFA343DAB28E1646</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4CB66F3E30504B9ABCA39EB2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EC5991C83962420DA52EE480</string>
-				<string>B485B16AC523492AAAB2F86E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4D525A4110784597B3F3423C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8A40A0C99451445BA1837872</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>4DE1B3BFF2AD4A2AA7D895AE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ProcessAudioFile.mm</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/ProcessAudioFile.mm</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4DE88C05707043B4882200C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Chip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Chip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4E0FB72B13754B12A54F0D66</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>XorBinaryGate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/XorBinaryGate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4EF1DCAEBC124229B7C3CCCE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FrequencyControlWordChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/FrequencyControlWordChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F33ECDAC9384BE797209796</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E94C0F17E9248B5942B7010</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4F7E611564F64995B7C4AD98</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MultiplierChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/MultiplierChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5158B3B0327944C79678FEB8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ADSREnvelopeChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/ADSREnvelopeChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51B2C86F5601493F8986D540</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>51CAB97F25FE46D08466356B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>52B6FE5909D046AD8FF12E3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>NorBinaryGate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/NorBinaryGate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>531BC9A1C8AD426C8EACFCFF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>52B6FE5909D046AD8FF12E3E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>562AC28CF6ED4C3AA2E07CEE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6072F34F11B444BD8C60886B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>575ECA32487940409B6B9BB1</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>64CEDC35AF6842A19CF2A25E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-MKChipKit-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>578AFE49A1234427AE0AF347</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4269900F81AB43EA869F3228</string>
-				<string>91C674097ECF47A8A20A050E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>579FD303E28142389D874BF4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01A2FBF01A0945F097E97978</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>588E6DA165384578812F44AA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SinWaveChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Wavetable/SinWaveChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>591F2BF4F57A4A1FAA912B17</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2253E9193F224FFA867DA24B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>59487EC5161C40FC945930A7</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>5A6EF316DFEF4C36AF183D89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD8ECD937F08491F8565C93E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5AB821B935824828ADF089CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AndBinaryGate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/AndBinaryGate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5C8AED80672A4DB4894EB0B1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>EdgeTriggeredInput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/EdgeTriggeredInput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D6C287CF75C44B1BF8B9277</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABOutputPort.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABOutputPort.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5DD634EF43334D7AA6924D73</key>
-		<dict>
-			<key>fileRef</key>
-			<string>39532F6141F84E769A3B9639</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>5E8E5579BB354F56B2C22779</key>
-		<dict>
-			<key>fileRef</key>
-			<string>161893C9BD1F4878B9B6F0D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5F347658F10D44518CAED9A8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>770350DE07704226BFE4FD9C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5FB14CE176934A6FAAECD73B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C3F572498F704FFC8C01B867</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5FE0EC0D71BE4584BEA9B790</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B6704E7D0BA47AD816A8E3D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6072F34F11B444BD8C60886B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CAXException.cpp</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CAXException.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>61E4B866130C4211AE22A495</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CAStreamBasicDescription.cpp</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CAStreamBasicDescription.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>64721882A0B3433DB1A8DBD8</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>49774C6D24274996B8406329</string>
-				<string>808561D397BC4225AE5840A4</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>64CEDC35AF6842A19CF2A25E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MKChipKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>65C23964FEEF453B9282BA5F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>66040D2726BC4932A61B417F</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F580007FD111401499417A48</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>67D62DFA0AA245ECB21F37A3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1FFF44EC9DF747E680D3ADBE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>68920403C8CA49DBAD62E8F7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AndBinaryGate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/AndBinaryGate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>68977EF6AAA246DDB5753C45</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>OrBinaryGate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/OrBinaryGate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>699635B0D1D7423FBF307DA5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D7223FAB4C2E494D918256EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>69C8C843403149F2B3392541</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SingleBitOutput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipOutput/SingleBitOutput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6C04C1FF4BD84C378C767E28</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABAudiobusAudioUnitWrapper.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABAudiobusAudioUnitWrapper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DC0925337BF44B1B545397E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EABE723F94264F9F9B8CA7B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>6DE85556185047E2BF53EC5C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MKAudioKit-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6DF3F738C6034B87918E7882</key>
-		<dict>
-			<key>fileRef</key>
-			<string>35F3E4D546DF4DEC8E41E164</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>71A943296185418A9D215A8B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>AdcChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/AdcChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>76463D8F3DAA4197BDAA6B5B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>20C985644E134D399C7EB7E7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>770350DE07704226BFE4FD9C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Chip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Chip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B6704E7D0BA47AD816A8E3D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>README.md</string>
-			<key>path</key>
-			<string>Classes/README.md</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7B8EB6DD54ED40F49FEB6944</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ADSREnvelopeChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/ADSREnvelopeChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7C0B7CC39101465F96F253B4</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B57F2C6164F04632B93B3A9D</string>
-				<string>66040D2726BC4932A61B417F</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>7CA2D52E91DD4301B331CEB7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5AB821B935824828ADF089CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>7E095DD5D9BF4F9D94E12C87</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Gate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/Gate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>806AF6B8BF734C0D951217DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E033972FCCD044D9B78E78DB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>808561D397BC4225AE5840A4</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>6DE85556185047E2BF53EC5C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Pods-MKAudioKit-prefix.pch</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>80A1C6EE47B54D1D82186C53</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>GroundChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/GroundChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>83155E24AC104233BB4340CB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C395DB708AEF460B916D6A3E</string>
-				<string>6C04C1FF4BD84C378C767E28</string>
-				<string>EE2BE7CC9C7E4078A178D584</string>
-				<string>30670CCE63F24A15B5129DBC</string>
-				<string>D7223FAB4C2E494D918256EB</string>
-				<string>89FC211741054934870A804B</string>
-				<string>98643804B9954A659BB57231</string>
-				<string>EDD29C819EE14BC1AC5F9C5B</string>
-				<string>5D6C287CF75C44B1BF8B9277</string>
-				<string>88803870E24D472B918A402A</string>
-				<string>1FFF44EC9DF747E680D3ADBE</string>
-				<string>C78F2C3B17E545DFB1156D4D</string>
-				<string>01A2FBF01A0945F097E97978</string>
-				<string>22D4D649341C4E1FA7E439C1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Audiobus</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>845656A272F8464E8284E500</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Gate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/Gate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>84E806B8552E46FC84001BC8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D5E11E6A038B40648655B803</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>86E07B30354940A79339FFBD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>BinaryGate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/BinaryGate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>87CDA2C9BB5C48B1A8715136</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>92C363FA860F48AD97417226</string>
-				<string>6DE85556185047E2BF53EC5C</string>
-				<string>91406AD2BBFA458492DCC95A</string>
-				<string>8818B4BF1B2C4B56863C442D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8818B4BF1B2C4B56863C442D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MKAudioKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>887151B6FE9541E09887676D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>063D4D6E00694257AD61DE6F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88803870E24D472B918A402A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABPeer.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABPeer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>89FC211741054934870A804B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABInputPort.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABInputPort.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8A40A0C99451445BA1837872</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>AdcChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/AdcChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C0371E6BA5F4AF5B462A57B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>71A943296185418A9D215A8B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>91406AD2BBFA458492DCC95A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-MKAudioKit-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>91BEDC71AD244986963D1320</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E8AA26745FD64836979DD6D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>91C674097ECF47A8A20A050E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7B8EB6DD54ED40F49FEB6944</string>
-				<string>5158B3B0327944C79678FEB8</string>
-				<string>8A40A0C99451445BA1837872</string>
-				<string>71A943296185418A9D215A8B</string>
-				<string>5AB821B935824828ADF089CD</string>
-				<string>68920403C8CA49DBAD62E8F7</string>
-				<string>E2A7516E90C141EF950C35A3</string>
-				<string>86E07B30354940A79339FFBD</string>
-				<string>4DE88C05707043B4882200C1</string>
-				<string>770350DE07704226BFE4FD9C</string>
-				<string>1ADC0BF1DE844FB29F4A5B3D</string>
-				<string>EF1265590CB54933864DACFA</string>
-				<string>C7B2AA524B9A4D0AA33D8189</string>
-				<string>1603125394A4453AB16DE54E</string>
-				<string>B728CDCBE2F2483A90893F4C</string>
-				<string>1199916763584A379196427C</string>
-				<string>A56FD2ABB4984586B60F2880</string>
-				<string>B4D8F5C5F35440AF8D5D5D54</string>
-				<string>C44D14DCB947407FADA0C0AF</string>
-				<string>EABE723F94264F9F9B8CA7B2</string>
-				<string>15490CBA9D44409AA8112131</string>
-				<string>39532F6141F84E769A3B9639</string>
-				<string>3487100046F34AC88FC0400E</string>
-				<string>937D7BF300E840678C9916E6</string>
-				<string>08DAFB0A0B994DA487AAC470</string>
-				<string>33D5C5BA376F4BA7A070C132</string>
-				<string>5C8AED80672A4DB4894EB0B1</string>
-				<string>AA4868EE62AF4E85996F0D24</string>
-				<string>D5E11E6A038B40648655B803</string>
-				<string>4EF1DCAEBC124229B7C3CCCE</string>
-				<string>41E73E547DF149B5B3937744</string>
-				<string>7E095DD5D9BF4F9D94E12C87</string>
-				<string>845656A272F8464E8284E500</string>
-				<string>2253E9193F224FFA867DA24B</string>
-				<string>80A1C6EE47B54D1D82186C53</string>
-				<string>9AAC10593B0940BFBE1D629B</string>
-				<string>4F7E611564F64995B7C4AD98</string>
-				<string>20C985644E134D399C7EB7E7</string>
-				<string>342E5DEC014F41B182B7AC47</string>
-				<string>52B6FE5909D046AD8FF12E3E</string>
-				<string>DD8ECD937F08491F8565C93E</string>
-				<string>68977EF6AAA246DDB5753C45</string>
-				<string>E033972FCCD044D9B78E78DB</string>
-				<string>EB400F026F0A445D9808ADD4</string>
-				<string>FA9717FF51B849CAB1314A60</string>
-				<string>7B6704E7D0BA47AD816A8E3D</string>
-				<string>E8AA26745FD64836979DD6D2</string>
-				<string>FCDA437A47C1437A9B5073BB</string>
-				<string>1C78F4B53E574FAB8EA81254</string>
-				<string>2D328D8A7EC6497782EDB93B</string>
-				<string>AFF6B96AA785479298D9A208</string>
-				<string>1BDE131165724A34B660AC9E</string>
-				<string>CCE14043AFDF446B842774EE</string>
-				<string>0868C40052174B79A6D437F7</string>
-				<string>588E6DA165384578812F44AA</string>
-				<string>1AA9D132385C49DA98F6B1EF</string>
-				<string>35F3E4D546DF4DEC8E41E164</string>
-				<string>B1D05E963BF244CA9AB8CFBC</string>
-				<string>69C8C843403149F2B3392541</string>
-				<string>F70767AB24C84710926ACF52</string>
-				<string>FA93B79DE12A46FE91814A17</string>
-				<string>C3F572498F704FFC8C01B867</string>
-				<string>F0C5A996C7D5490CB744A114</string>
-				<string>F169DCEBFC374A86A7A5BF44</string>
-				<string>1393CC4D2860489D9176B8F5</string>
-				<string>0C67A4CF536545069B94C13F</string>
-				<string>4E0FB72B13754B12A54F0D66</string>
-				<string>161893C9BD1F4878B9B6F0D5</string>
-				<string>3952739196EA4E3A9D834548</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MKChipKit</string>
-			<key>path</key>
-			<string>MKChipKit</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>92716E729C324C85A136A942</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98643804B9954A659BB57231</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>92C363FA860F48AD97417226</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MKAudioKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>937D7BF300E840678C9916E6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>DelayChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/DelayChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9382095662F84B17B43C88FF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>3174D2D0D33448A696393CA5</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1C2F0F6F1BD34123B9816A93</string>
-				<string>4B11726CB5964DB7A848B0AF</string>
-				<string>F04C13D96D5147EFB54A3ABC</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MKChipKit</string>
-			<key>productName</key>
-			<string>Pods-MKChipKit</string>
-			<key>productReference</key>
-			<string>CEB2DF6435014F968DBCA11C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>94B0D46943474557A19C9E2F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1ADC0BF1DE844FB29F4A5B3D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9570A1A0526348269F55205D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-MKChipKit-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>959AB17941004781BDD4D646</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>7C0B7CC39101465F96F253B4</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F60E6E365E26464BBB55502F</string>
-				<string>111E558BBF234EFEAC76E275</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A4E7022AADFA43B88D247E7F</string>
-				<string>0C61C3423AD548FAB7417257</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>B4ACFF7D28B44E409E49EB3B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>97BA7B37910C455D90A1D576</key>
-		<dict>
-			<key>fileRef</key>
-			<string>88803870E24D472B918A402A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>98643804B9954A659BB57231</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABLiveBuffer.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABLiveBuffer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A81472D668A4ED3A2B9F0A1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AA83CA92249843009354A1C4</string>
-				<string>1E94C0F17E9248B5942B7010</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AAC10593B0940BFBE1D629B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>MultiplierChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/MultiplierChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9AE081613BCD4CF2B796994A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9B6B519858E144FDB72B753F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EB400F026F0A445D9808ADD4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9D0721CAE7614C11AC91EE7C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0BD90861A1E54FD2A1FA17BF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9E0A9AED8F3241149B71BFA4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>80A1C6EE47B54D1D82186C53</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9E0E9E4260304F228C072EC4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1C78F4B53E574FAB8EA81254</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>9EB2766A571E4562931A0CC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0C67A4CF536545069B94C13F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9EE07DFFBAF040519E3E4DAE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CCE14043AFDF446B842774EE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A4E7022AADFA43B88D247E7F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>BA79701D7B454B9E9A642435</string>
-			<key>targetProxy</key>
-			<string>046EDC93DAFC49B297CB2160</string>
-		</dict>
-		<key>A56FD2ABB4984586B60F2880</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ChipOutput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipOutput/ChipOutput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A66F5A8392AB4284B1CFA909</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B1D05E963BF244CA9AB8CFBC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A723D6866E8043E68BE99031</key>
-		<dict>
-			<key>fileRef</key>
-			<string>30670CCE63F24A15B5129DBC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A8B368A7CC4A463E81BE8D8E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>91406AD2BBFA458492DCC95A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A98BC028591E4B9794F8A097</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1393CC4D2860489D9176B8F5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>A9DD9B7F7B0D495782F5970C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MKKeyboardView.m</string>
-			<key>path</key>
-			<string>Classes/MKKeyboardView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA23939877F84AAF971A6664</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1AA9D132385C49DA98F6B1EF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AA4868EE62AF4E85996F0D24</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>FloatingVoltageChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/FloatingVoltageChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AA83CA92249843009354A1C4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Accelerate.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>AE1576937CB94D1EBBEAC5C8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3487100046F34AC88FC0400E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE8C0123E4F44B739CF4A1E2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D328D8A7EC6497782EDB93B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AE90475C3E1546889364027F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>68977EF6AAA246DDB5753C45</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>AE9F6BC1AE234B03914246FF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EFA0C3121B8B4AF388331713</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AFF6B96AA785479298D9A208</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SerialInput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/SerialInput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0A7930E0EBA4191A2145F7D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4DE88C05707043B4882200C1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B0AEA7F8B68A4E3C818C8A19</key>
-		<dict>
-			<key>fileRef</key>
-			<string>845656A272F8464E8284E500</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B1CE21C5EF354599BD7AABA8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>B1D05E963BF244CA9AB8CFBC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SingleBitInput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/SingleBitInput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B485B16AC523492AAAB2F86E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E94C0F17E9248B5942B7010</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4ACFF7D28B44E409E49EB3B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B4D8F5C5F35440AF8D5D5D54</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CircuitBoard.cpp</string>
-			<key>path</key>
-			<string>Classes/CircuitBoard.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B57F2C6164F04632B93B3A9D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>F580007FD111401499417A48</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_VERSION</key>
-				<string>com.apple.compilers.llvm.clang.1_0</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B6F6C0D1A0D74103A7922330</key>
-		<dict>
-			<key>fileRef</key>
-			<string>61E4B866130C4211AE22A495</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>B728CDCBE2F2483A90893F4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ChipLibraryInclude.h</string>
-			<key>path</key>
-			<string>Classes/ChipLibraryInclude.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B84E91699E7540F0A784A58C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B4ACFF7D28B44E409E49EB3B</string>
-				<string>1DB457A4E3BE42588CAED73C</string>
-				<string>CEB2DF6435014F968DBCA11C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B955858B30F7494D98C268D9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1DB457A4E3BE42588CAED73C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BA79701D7B454B9E9A642435</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>64721882A0B3433DB1A8DBD8</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1DC5A5F9A4024B8D874D932F</string>
-				<string>4CB66F3E30504B9ABCA39EB2</string>
-				<string>0011623B1BA04128BFBD2BFA</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-MKAudioKit</string>
-			<key>productName</key>
-			<string>Pods-MKAudioKit</string>
-			<key>productReference</key>
-			<string>1DB457A4E3BE42588CAED73C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>BC2DD1A12E2A496F8AA0476A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E0E3EE9476B24FE09442F281</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD64F853A4E34A43B307F820</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1BDE131165724A34B660AC9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD6E240E11794642B08818F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>08DAFB0A0B994DA487AAC470</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD86F8271F3941C8819307F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>MKKeyboardView.h</string>
-			<key>path</key>
-			<string>Classes/MKKeyboardView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2614151BE8841C8954B85EA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B8EB6DD54ED40F49FEB6944</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C395DB708AEF460B916D6A3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABAnimatedTrigger.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABAnimatedTrigger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C3F572498F704FFC8C01B867</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>TimerChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/TimerChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C40D868750594692B85595E3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9DD9B7F7B0D495782F5970C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>C44D14DCB947407FADA0C0AF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CircuitBoard.h</string>
-			<key>path</key>
-			<string>Classes/CircuitBoard.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C513493521A6455C88CCCEF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C78F2C3B17E545DFB1156D4D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C78F2C3B17E545DFB1156D4D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABTrigger.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABTrigger.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C7B2AA524B9A4D0AA33D8189</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>ChipInput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipInput/ChipInput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CB7BD42F217D4D53A7202E37</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4F7E611564F64995B7C4AD98</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CCE14043AFDF446B842774EE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>SerialOutput.cpp</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipOutput/SerialOutput.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CEB2DF6435014F968DBCA11C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-MKChipKit.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CF6CF8725CA14E2DA0448F88</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FCDA437A47C1437A9B5073BB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D3EB3748EB9448FCA04D9C0B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>86E07B30354940A79339FFBD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D5E11E6A038B40648655B803</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FloatingVoltageChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/FloatingVoltageChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7223FAB4C2E494D918256EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABFilterPort.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABFilterPort.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D7FF32097D8F4E1BB4412919</key>
-		<dict>
-			<key>fileRef</key>
-			<string>375FCFE3C7DE4F26BA3C9C15</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DC9D32BD52C2495AA569D475</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA93B79DE12A46FE91814A17</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DD0ABD13D55B4B8C96B2BA8F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFF6B96AA785479298D9A208</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>DD8ECD937F08491F8565C93E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>NorBinaryGate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/NorBinaryGate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DEBFFF73834E4000B8B9DBF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7E095DD5D9BF4F9D94E12C87</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E033972FCCD044D9B78E78DB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>OrBinaryGate.h</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/OrBinaryGate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0E3EE9476B24FE09442F281</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1DFA13701D14C169E5BF99E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>MKWhiteKeyView.m</string>
-			<key>path</key>
-			<string>Classes/MKWhiteKeyView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2A7516E90C141EF950C35A3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>BinaryGate.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/Gate/BinaryGate/BinaryGate.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E42569ACE54B4764A49DE5B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0868C40052174B79A6D437F7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E630AC389A444E73A55BCEDC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA4868EE62AF4E85996F0D24</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E74BC8F3BC8F467784D34307</key>
-		<dict>
-			<key>fileRef</key>
-			<string>69C8C843403149F2B3392541</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>E7B940EEBD954351A1BDAC95</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F70767AB24C84710926ACF52</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E82D7EEA9936440E862470C5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5D6C287CF75C44B1BF8B9277</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8AA26745FD64836979DD6D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Register.cpp</string>
-			<key>path</key>
-			<string>Classes/Register.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E9C82191EF124E0699E752DA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>41E73E547DF149B5B3937744</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EABE723F94264F9F9B8CA7B2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CounterChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/CounterChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EAE69868310C4FF092813DEC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F70E9E63F0214DFA8C232A19</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EB400F026F0A445D9808ADD4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>PhaseAccumulatorChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/PhaseAccumulatorChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB50069892444F79A18F143B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E2A7516E90C141EF950C35A3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>EC5991C83962420DA52EE480</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AA83CA92249843009354A1C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>EDD29C819EE14BC1AC5F9C5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABMultiStreamBuffer.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABMultiStreamBuffer.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EE2BE7CC9C7E4078A178D584</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ABAudiobusController.h</string>
-			<key>path</key>
-			<string>libraries/audiobus/1.0.2.5/include/ABAudiobusController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF1265590CB54933864DACFA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ChipIO.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipIO.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EFA0C3121B8B4AF388331713</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CAStreamBasicDescription.h</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CAStreamBasicDescription.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0399B591CFA48EC812D0ED1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>937D7BF300E840678C9916E6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F04C13D96D5147EFB54A3ABC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F7B40D98EB5449D4B83D361E</string>
-				<string>8C0371E6BA5F4AF5B462A57B</string>
-				<string>179BCA3718304DD6A17490C3</string>
-				<string>D3EB3748EB9448FCA04D9C0B</string>
-				<string>5F347658F10D44518CAED9A8</string>
-				<string>F88B7290B2014C32B6B22CE1</string>
-				<string>226D7798822E4AAAB0D9121C</string>
-				<string>46EA19108DBC40AFB6F8D47A</string>
-				<string>3627B70B2F7E4E7FB25D590D</string>
-				<string>1FDD6A2EC33546958588A3C8</string>
-				<string>0926F32757CD46F4B9E4F8B3</string>
-				<string>AE1576937CB94D1EBBEAC5C8</string>
-				<string>BD6E240E11794642B08818F3</string>
-				<string>18A8036013084392B8558E92</string>
-				<string>84E806B8552E46FC84001BC8</string>
-				<string>E9C82191EF124E0699E752DA</string>
-				<string>B0AEA7F8B68A4E3C818C8A19</string>
-				<string>9E0A9AED8F3241149B71BFA4</string>
-				<string>CB7BD42F217D4D53A7202E37</string>
-				<string>289565FA30FE43D7A1E3AFFD</string>
-				<string>5A6EF316DFEF4C36AF183D89</string>
-				<string>806AF6B8BF734C0D951217DD</string>
-				<string>311BFA782D2642E097291AB7</string>
-				<string>CF6CF8725CA14E2DA0448F88</string>
-				<string>AE8C0123E4F44B739CF4A1E2</string>
-				<string>BD64F853A4E34A43B307F820</string>
-				<string>E42569ACE54B4764A49DE5B4</string>
-				<string>AA23939877F84AAF971A6664</string>
-				<string>A66F5A8392AB4284B1CFA909</string>
-				<string>E7B940EEBD954351A1BDAC95</string>
-				<string>5FB14CE176934A6FAAECD73B</string>
-				<string>11EAD7D3817E43C182E036F1</string>
-				<string>9EB2766A571E4562931A0CC3</string>
-				<string>5E8E5579BB354F56B2C22779</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F08702E8758B43C596A2AA21</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-MKChipKit.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F0C5A996C7D5490CB744A114</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>VccChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/VccChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1219346C51C40119396116A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EDD29C819EE14BC1AC5F9C5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F169DCEBFC374A86A7A5BF44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>VccChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/VccChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F256B6BA89164DD1B7145A36</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2D66400D9824784B69C3C52</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0C11681DC09E4052BA8F13D9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F3AC0B1877F5473E84ECF7B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1199916763584A379196427C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>F3CE05E43360453395700CC2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>ProcessAudioFile.h</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/ProcessAudioFile.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F580007FD111401499417A48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F5A4CD31B20D40E89D6328F9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EE2BE7CC9C7E4078A178D584</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F60E6E365E26464BBB55502F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>BC2DD1A12E2A496F8AA0476A</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F70767AB24C84710926ACF52</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>SingleBitOutput.h</string>
-			<key>path</key>
-			<string>Classes/ChipIO/ChipOutput/SingleBitOutput.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F70E9E63F0214DFA8C232A19</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CADebugPrintf.h</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CADebugPrintf.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F7B40D98EB5449D4B83D361E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5158B3B0327944C79678FEB8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F88B7290B2014C32B6B22CE1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>EF1265590CB54933864DACFA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F9FB4CE5E6BA4E45A2B0288D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B4D8F5C5F35440AF8D5D5D54</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0</string>
-			</dict>
-		</dict>
-		<key>FA93B79DE12A46FE91814A17</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>TimerChip.cpp</string>
-			<key>path</key>
-			<string>Classes/Chip/TimerChip.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA9717FF51B849CAB1314A60</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>PhaseAccumulatorChip.h</string>
-			<key>path</key>
-			<string>Classes/Chip/PhaseAccumulatorChip.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FBC9CB01EFA343DAB28E1646</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1E94C0F17E9248B5942B7010</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FC3C9D51422C44CFBCB59D3A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>CADebugPrintf.cpp</string>
-			<key>path</key>
-			<string>Classes/ProcessAudioFile/CADebugPrintf.cpp</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC6806C169174C36A52B164E</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>59487EC5161C40FC945930A7</string>
-				<string>51B2C86F5601493F8986D540</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>FCDA437A47C1437A9B5073BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Register.h</string>
-			<key>path</key>
-			<string>Classes/Register.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF16F684AD8E4A9F8BF0C15E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B1CE21C5EF354599BD7AABA8</string>
-				<string>3B9B8405C26A4F20BEA85AC2</string>
-				<string>578AFE49A1234427AE0AF347</string>
-				<string>B84E91699E7540F0A784A58C</string>
-				<string>0E344A64748645D48FBE5723</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>2B3EC749423A499DA4580D8F</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03AA0BCFA02145C985A4935E /* ChipInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C7B2AA524B9A4D0AA33D8189 /* ChipInput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		077F311E0B4F4DEBB3AF2DBC /* AudioController.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A807548710406EBE7AC047 /* AudioController.h */; };
+		07BD20E6E74C4D51BB49D160 /* ABInputPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FC211741054934870A804B /* ABInputPort.h */; };
+		0926F32757CD46F4B9E4F8B3 /* CounterChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 15490CBA9D44409AA8112131 /* CounterChip.h */; };
+		0EBC72178C3A4F36A42EA307 /* CADebugPrintf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC3C9D51422C44CFBCB59D3A /* CADebugPrintf.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		11EAD7D3817E43C182E036F1 /* VccChip.h in Headers */ = {isa = PBXBuildFile; fileRef = F169DCEBFC374A86A7A5BF44 /* VccChip.h */; };
+		179BCA3718304DD6A17490C3 /* AndBinaryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 68920403C8CA49DBAD62E8F7 /* AndBinaryGate.h */; };
+		18A8036013084392B8558E92 /* EdgeTriggeredInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8AED80672A4DB4894EB0B1 /* EdgeTriggeredInput.h */; };
+		1B447B9CFC2B4B3F984A3CB9 /* XorBinaryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4E0FB72B13754B12A54F0D66 /* XorBinaryGate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		1B5A3A19890E455EB48FB015 /* ABAudiobusAudioUnitWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C04C1FF4BD84C378C767E28 /* ABAudiobusAudioUnitWrapper.h */; };
+		1FDD6A2EC33546958588A3C8 /* CircuitBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = C44D14DCB947407FADA0C0AF /* CircuitBoard.h */; };
+		226D7798822E4AAAB0D9121C /* ChipInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1603125394A4453AB16DE54E /* ChipInput.h */; };
+		27D32AB5746B4EDBABBF809A /* EdgeTriggeredInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33D5C5BA376F4BA7A070C132 /* EdgeTriggeredInput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		289565FA30FE43D7A1E3AFFD /* NandBinaryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 342E5DEC014F41B182B7AC47 /* NandBinaryGate.h */; };
+		2DCE31136C0941E79EEC9565 /* ProcessAudioFile.h in Headers */ = {isa = PBXBuildFile; fileRef = F3CE05E43360453395700CC2 /* ProcessAudioFile.h */; };
+		2E0AFFD693B94915AC29C5FC /* VccChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F0C5A996C7D5490CB744A114 /* VccChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		2E160A9D5F0C46CFB6E585D4 /* FrequencyControlWordChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4EF1DCAEBC124229B7C3CCCE /* FrequencyControlWordChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		30E48AFF37BA4D85A80D1FC3 /* libPods-MKChipKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEB2DF6435014F968DBCA11C /* libPods-MKChipKit.a */; };
+		311BFA782D2642E097291AB7 /* PhaseAccumulatorChip.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9717FF51B849CAB1314A60 /* PhaseAccumulatorChip.h */; };
+		322C66DBD03C4D46A1B15309 /* MultiplierChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AAC10593B0940BFBE1D629B /* MultiplierChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		34D27A8D51BE4E40A68836BF /* ProcessAudioFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DE1B3BFF2AD4A2AA7D895AE /* ProcessAudioFile.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		3627B70B2F7E4E7FB25D590D /* ChipOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = A56FD2ABB4984586B60F2880 /* ChipOutput.h */; };
+		3DA19B6C474B4877B6E3D587 /* SinWaveChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 588E6DA165384578812F44AA /* SinWaveChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		40E2B1EADF6046228E0C017D /* CADebugMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 3114C148E7BC4D239918EE07 /* CADebugMacros.h */; };
+		41737B8255194451954F6704 /* CAXException.h in Headers */ = {isa = PBXBuildFile; fileRef = 42677FA846E34A79BB3A940D /* CAXException.h */; };
+		465D10E9E1854869B0EEBDB5 /* MKWhiteKeyView.m in Sources */ = {isa = PBXBuildFile; fileRef = E1DFA13701D14C169E5BF99E /* MKWhiteKeyView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		46EA19108DBC40AFB6F8D47A /* ChipLibraryInclude.h in Headers */ = {isa = PBXBuildFile; fileRef = B728CDCBE2F2483A90893F4C /* ChipLibraryInclude.h */; };
+		48A31663C3AE4BDAA2720C47 /* MKKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = BD86F8271F3941C8819307F9 /* MKKeyboardView.h */; };
+		49C5B95C82F04961A2D6027B /* ABAnimatedTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = C395DB708AEF460B916D6A3E /* ABAnimatedTrigger.h */; };
+		4D525A4110784597B3F3423C /* AdcChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A40A0C99451445BA1837872 /* AdcChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		4F33ECDAC9384BE797209796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E94C0F17E9248B5942B7010 /* Foundation.framework */; };
+		531BC9A1C8AD426C8EACFCFF /* NorBinaryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52B6FE5909D046AD8FF12E3E /* NorBinaryGate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		562AC28CF6ED4C3AA2E07CEE /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6072F34F11B444BD8C60886B /* CAXException.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		579FD303E28142389D874BF4 /* Audiobus.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A2FBF01A0945F097E97978 /* Audiobus.h */; };
+		591F2BF4F57A4A1FAA912B17 /* GroundChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2253E9193F224FFA867DA24B /* GroundChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5A6EF316DFEF4C36AF183D89 /* NorBinaryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8ECD937F08491F8565C93E /* NorBinaryGate.h */; };
+		5DD634EF43334D7AA6924D73 /* DacChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 39532F6141F84E769A3B9639 /* DacChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		5E8E5579BB354F56B2C22779 /* XorBinaryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 161893C9BD1F4878B9B6F0D5 /* XorBinaryGate.h */; };
+		5F347658F10D44518CAED9A8 /* Chip.h in Headers */ = {isa = PBXBuildFile; fileRef = 770350DE07704226BFE4FD9C /* Chip.h */; };
+		5FB14CE176934A6FAAECD73B /* TimerChip.h in Headers */ = {isa = PBXBuildFile; fileRef = C3F572498F704FFC8C01B867 /* TimerChip.h */; };
+		5FE0EC0D71BE4584BEA9B790 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7B6704E7D0BA47AD816A8E3D /* README.md */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		67D62DFA0AA245ECB21F37A3 /* ABPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FFF44EC9DF747E680D3ADBE /* ABPort.h */; };
+		699635B0D1D7423FBF307DA5 /* ABFilterPort.h in Headers */ = {isa = PBXBuildFile; fileRef = D7223FAB4C2E494D918256EB /* ABFilterPort.h */; };
+		6DC0925337BF44B1B545397E /* CounterChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EABE723F94264F9F9B8CA7B2 /* CounterChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		6DF3F738C6034B87918E7882 /* SingleBitInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 35F3E4D546DF4DEC8E41E164 /* SingleBitInput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		76463D8F3DAA4197BDAA6B5B /* NandBinaryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20C985644E134D399C7EB7E7 /* NandBinaryGate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		7CA2D52E91DD4301B331CEB7 /* AndBinaryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AB821B935824828ADF089CD /* AndBinaryGate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		806AF6B8BF734C0D951217DD /* OrBinaryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = E033972FCCD044D9B78E78DB /* OrBinaryGate.h */; };
+		84E806B8552E46FC84001BC8 /* FloatingVoltageChip.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E11E6A038B40648655B803 /* FloatingVoltageChip.h */; };
+		887151B6FE9541E09887676D /* Pods-MKChipKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 063D4D6E00694257AD61DE6F /* Pods-MKChipKit-dummy.m */; };
+		8C0371E6BA5F4AF5B462A57B /* AdcChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 71A943296185418A9D215A8B /* AdcChip.h */; };
+		91BEDC71AD244986963D1320 /* Register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8AA26745FD64836979DD6D2 /* Register.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		92716E729C324C85A136A942 /* ABLiveBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 98643804B9954A659BB57231 /* ABLiveBuffer.h */; };
+		94B0D46943474557A19C9E2F /* ChipIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1ADC0BF1DE844FB29F4A5B3D /* ChipIO.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		97BA7B37910C455D90A1D576 /* ABPeer.h in Headers */ = {isa = PBXBuildFile; fileRef = 88803870E24D472B918A402A /* ABPeer.h */; };
+		9B6B519858E144FDB72B753F /* PhaseAccumulatorChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB400F026F0A445D9808ADD4 /* PhaseAccumulatorChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9D0721CAE7614C11AC91EE7C /* CAMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BD90861A1E54FD2A1FA17BF /* CAMath.h */; };
+		9E0A9AED8F3241149B71BFA4 /* GroundChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 80A1C6EE47B54D1D82186C53 /* GroundChip.h */; };
+		9E0E9E4260304F228C072EC4 /* ResetTimerChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1C78F4B53E574FAB8EA81254 /* ResetTimerChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		9EB2766A571E4562931A0CC3 /* WavetableChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C67A4CF536545069B94C13F /* WavetableChip.h */; };
+		9EE07DFFBAF040519E3E4DAE /* SerialOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCE14043AFDF446B842774EE /* SerialOutput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		A66F5A8392AB4284B1CFA909 /* SingleBitInput.h in Headers */ = {isa = PBXBuildFile; fileRef = B1D05E963BF244CA9AB8CFBC /* SingleBitInput.h */; };
+		A723D6866E8043E68BE99031 /* ABCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 30670CCE63F24A15B5129DBC /* ABCommon.h */; };
+		A8B368A7CC4A463E81BE8D8E /* Pods-MKAudioKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91406AD2BBFA458492DCC95A /* Pods-MKAudioKit-dummy.m */; };
+		A98BC028591E4B9794F8A097 /* WavetableChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1393CC4D2860489D9176B8F5 /* WavetableChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		AA23939877F84AAF971A6664 /* SinWaveChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AA9D132385C49DA98F6B1EF /* SinWaveChip.h */; };
+		AE1576937CB94D1EBBEAC5C8 /* DacChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 3487100046F34AC88FC0400E /* DacChip.h */; };
+		AE8C0123E4F44B739CF4A1E2 /* ResetTimerChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D328D8A7EC6497782EDB93B /* ResetTimerChip.h */; };
+		AE90475C3E1546889364027F /* OrBinaryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68977EF6AAA246DDB5753C45 /* OrBinaryGate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		AE9F6BC1AE234B03914246FF /* CAStreamBasicDescription.h in Headers */ = {isa = PBXBuildFile; fileRef = EFA0C3121B8B4AF388331713 /* CAStreamBasicDescription.h */; };
+		B0A7930E0EBA4191A2145F7D /* Chip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DE88C05707043B4882200C1 /* Chip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B0AEA7F8B68A4E3C818C8A19 /* Gate.h in Headers */ = {isa = PBXBuildFile; fileRef = 845656A272F8464E8284E500 /* Gate.h */; };
+		B485B16AC523492AAAB2F86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E94C0F17E9248B5942B7010 /* Foundation.framework */; };
+		B6F6C0D1A0D74103A7922330 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61E4B866130C4211AE22A495 /* CAStreamBasicDescription.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		B955858B30F7494D98C268D9 /* libPods-MKAudioKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DB457A4E3BE42588CAED73C /* libPods-MKAudioKit.a */; };
+		BC2DD1A12E2A496F8AA0476A /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E3EE9476B24FE09442F281 /* Pods-dummy.m */; };
+		BD64F853A4E34A43B307F820 /* SerialInput.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BDE131165724A34B660AC9E /* SerialInput.h */; };
+		BD6E240E11794642B08818F3 /* DelayChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DAFB0A0B994DA487AAC470 /* DelayChip.h */; };
+		C2614151BE8841C8954B85EA /* ADSREnvelopeChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B8EB6DD54ED40F49FEB6944 /* ADSREnvelopeChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C40D868750594692B85595E3 /* MKKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9DD9B7F7B0D495782F5970C /* MKKeyboardView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		C513493521A6455C88CCCEF2 /* ABTrigger.h in Headers */ = {isa = PBXBuildFile; fileRef = C78F2C3B17E545DFB1156D4D /* ABTrigger.h */; };
+		CB7BD42F217D4D53A7202E37 /* MultiplierChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F7E611564F64995B7C4AD98 /* MultiplierChip.h */; };
+		CF6CF8725CA14E2DA0448F88 /* Register.h in Headers */ = {isa = PBXBuildFile; fileRef = FCDA437A47C1437A9B5073BB /* Register.h */; };
+		D3EB3748EB9448FCA04D9C0B /* BinaryGate.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E07B30354940A79339FFBD /* BinaryGate.h */; };
+		D7FF32097D8F4E1BB4412919 /* MKWhiteKeyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 375FCFE3C7DE4F26BA3C9C15 /* MKWhiteKeyView.h */; };
+		DC9D32BD52C2495AA569D475 /* TimerChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA93B79DE12A46FE91814A17 /* TimerChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DD0ABD13D55B4B8C96B2BA8F /* SerialInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFF6B96AA785479298D9A208 /* SerialInput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		DEBFFF73834E4000B8B9DBF9 /* Gate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E095DD5D9BF4F9D94E12C87 /* Gate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E42569ACE54B4764A49DE5B4 /* SerialOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 0868C40052174B79A6D437F7 /* SerialOutput.h */; };
+		E630AC389A444E73A55BCEDC /* FloatingVoltageChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA4868EE62AF4E85996F0D24 /* FloatingVoltageChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E74BC8F3BC8F467784D34307 /* SingleBitOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 69C8C843403149F2B3392541 /* SingleBitOutput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		E7B940EEBD954351A1BDAC95 /* SingleBitOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = F70767AB24C84710926ACF52 /* SingleBitOutput.h */; };
+		E82D7EEA9936440E862470C5 /* ABOutputPort.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D6C287CF75C44B1BF8B9277 /* ABOutputPort.h */; };
+		E9C82191EF124E0699E752DA /* FrequencyControlWordChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E73E547DF149B5B3937744 /* FrequencyControlWordChip.h */; };
+		EAE69868310C4FF092813DEC /* CADebugPrintf.h in Headers */ = {isa = PBXBuildFile; fileRef = F70E9E63F0214DFA8C232A19 /* CADebugPrintf.h */; };
+		EB50069892444F79A18F143B /* BinaryGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2A7516E90C141EF950C35A3 /* BinaryGate.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		EC5991C83962420DA52EE480 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA83CA92249843009354A1C4 /* Accelerate.framework */; };
+		F0399B591CFA48EC812D0ED1 /* DelayChip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 937D7BF300E840678C9916E6 /* DelayChip.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F1219346C51C40119396116A /* ABMultiStreamBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD29C819EE14BC1AC5F9C5B /* ABMultiStreamBuffer.h */; };
+		F2D66400D9824784B69C3C52 /* AudioController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0C11681DC09E4052BA8F13D9 /* AudioController.mm */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F3AC0B1877F5473E84ECF7B4 /* ChipOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1199916763584A379196427C /* ChipOutput.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		F5A4CD31B20D40E89D6328F9 /* ABAudiobusController.h in Headers */ = {isa = PBXBuildFile; fileRef = EE2BE7CC9C7E4078A178D584 /* ABAudiobusController.h */; };
+		F7B40D98EB5449D4B83D361E /* ADSREnvelopeChip.h in Headers */ = {isa = PBXBuildFile; fileRef = 5158B3B0327944C79678FEB8 /* ADSREnvelopeChip.h */; };
+		F88B7290B2014C32B6B22CE1 /* ChipIO.h in Headers */ = {isa = PBXBuildFile; fileRef = EF1265590CB54933864DACFA /* ChipIO.h */; };
+		F9FB4CE5E6BA4E45A2B0288D /* CircuitBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4D8F5C5F35440AF8D5D5D54 /* CircuitBoard.cpp */; settings = {COMPILER_FLAGS = "-fobjc-arc -DOS_OBJECT_USE_OBJC=0"; }; };
+		FBC9CB01EFA343DAB28E1646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E94C0F17E9248B5942B7010 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046EDC93DAFC49B297CB2160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3EC749423A499DA4580D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA79701D7B454B9E9A642435;
+			remoteInfo = "Pods-MKAudioKit";
+		};
+		286B888649BC46F19235B838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B3EC749423A499DA4580D8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9382095662F84B17B43C88FF;
+			remoteInfo = "Pods-MKChipKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01A2FBF01A0945F097E97978 /* Audiobus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Audiobus.h; path = libraries/audiobus/1.0.2.5/include/Audiobus.h; sourceTree = "<group>"; };
+		063D4D6E00694257AD61DE6F /* Pods-MKChipKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKChipKit-dummy.m"; sourceTree = "<group>"; };
+		0868C40052174B79A6D437F7 /* SerialOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerialOutput.h; path = Classes/ChipIO/ChipOutput/SerialOutput.h; sourceTree = "<group>"; };
+		08DAFB0A0B994DA487AAC470 /* DelayChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DelayChip.h; path = Classes/Chip/DelayChip.h; sourceTree = "<group>"; };
+		0BD90861A1E54FD2A1FA17BF /* CAMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAMath.h; path = Classes/ProcessAudioFile/CAMath.h; sourceTree = "<group>"; };
+		0C11681DC09E4052BA8F13D9 /* AudioController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = AudioController.mm; path = Classes/AudioController.mm; sourceTree = "<group>"; };
+		0C67A4CF536545069B94C13F /* WavetableChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WavetableChip.h; path = Classes/Chip/Wavetable/WavetableChip.h; sourceTree = "<group>"; };
+		1199916763584A379196427C /* ChipOutput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ChipOutput.cpp; path = Classes/ChipIO/ChipOutput/ChipOutput.cpp; sourceTree = "<group>"; };
+		1393CC4D2860489D9176B8F5 /* WavetableChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = WavetableChip.cpp; path = Classes/Chip/Wavetable/WavetableChip.cpp; sourceTree = "<group>"; };
+		15490CBA9D44409AA8112131 /* CounterChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CounterChip.h; path = Classes/Chip/CounterChip.h; sourceTree = "<group>"; };
+		1603125394A4453AB16DE54E /* ChipInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChipInput.h; path = Classes/ChipIO/ChipInput/ChipInput.h; sourceTree = "<group>"; };
+		161893C9BD1F4878B9B6F0D5 /* XorBinaryGate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XorBinaryGate.h; path = Classes/Chip/Gate/BinaryGate/XorBinaryGate.h; sourceTree = "<group>"; };
+		1AA9D132385C49DA98F6B1EF /* SinWaveChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SinWaveChip.h; path = Classes/Chip/Wavetable/SinWaveChip.h; sourceTree = "<group>"; };
+		1ADC0BF1DE844FB29F4A5B3D /* ChipIO.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ChipIO.cpp; path = Classes/ChipIO/ChipIO.cpp; sourceTree = "<group>"; };
+		1BDE131165724A34B660AC9E /* SerialInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SerialInput.h; path = Classes/ChipIO/ChipInput/SerialInput.h; sourceTree = "<group>"; };
+		1C78F4B53E574FAB8EA81254 /* ResetTimerChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ResetTimerChip.cpp; path = Classes/Chip/ResetTimerChip.cpp; sourceTree = "<group>"; };
+		1DB457A4E3BE42588CAED73C /* libPods-MKAudioKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKAudioKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E94C0F17E9248B5942B7010 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1FFF44EC9DF747E680D3ADBE /* ABPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABPort.h; path = libraries/audiobus/1.0.2.5/include/ABPort.h; sourceTree = "<group>"; };
+		20C985644E134D399C7EB7E7 /* NandBinaryGate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = NandBinaryGate.cpp; path = Classes/Chip/Gate/BinaryGate/NandBinaryGate.cpp; sourceTree = "<group>"; };
+		2253E9193F224FFA867DA24B /* GroundChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = GroundChip.cpp; path = Classes/Chip/GroundChip.cpp; sourceTree = "<group>"; };
+		23A807548710406EBE7AC047 /* AudioController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AudioController.h; path = Classes/AudioController.h; sourceTree = "<group>"; };
+		2D328D8A7EC6497782EDB93B /* ResetTimerChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ResetTimerChip.h; path = Classes/Chip/ResetTimerChip.h; sourceTree = "<group>"; };
+		30670CCE63F24A15B5129DBC /* ABCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABCommon.h; path = libraries/audiobus/1.0.2.5/include/ABCommon.h; sourceTree = "<group>"; };
+		3114C148E7BC4D239918EE07 /* CADebugMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CADebugMacros.h; path = Classes/ProcessAudioFile/CADebugMacros.h; sourceTree = "<group>"; };
+		33D5C5BA376F4BA7A070C132 /* EdgeTriggeredInput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = EdgeTriggeredInput.cpp; path = Classes/ChipIO/ChipInput/EdgeTriggeredInput.cpp; sourceTree = "<group>"; };
+		342E5DEC014F41B182B7AC47 /* NandBinaryGate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NandBinaryGate.h; path = Classes/Chip/Gate/BinaryGate/NandBinaryGate.h; sourceTree = "<group>"; };
+		3487100046F34AC88FC0400E /* DacChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DacChip.h; path = Classes/Chip/DacChip.h; sourceTree = "<group>"; };
+		35F3E4D546DF4DEC8E41E164 /* SingleBitInput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SingleBitInput.cpp; path = Classes/ChipIO/ChipInput/SingleBitInput.cpp; sourceTree = "<group>"; };
+		375FCFE3C7DE4F26BA3C9C15 /* MKWhiteKeyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKWhiteKeyView.h; path = Classes/MKWhiteKeyView.h; sourceTree = "<group>"; };
+		39532F6141F84E769A3B9639 /* DacChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = DacChip.cpp; path = Classes/Chip/DacChip.cpp; sourceTree = "<group>"; };
+		41E73E547DF149B5B3937744 /* FrequencyControlWordChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FrequencyControlWordChip.h; path = Classes/Chip/FrequencyControlWordChip.h; sourceTree = "<group>"; };
+		42677FA846E34A79BB3A940D /* CAXException.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAXException.h; path = Classes/ProcessAudioFile/CAXException.h; sourceTree = "<group>"; };
+		43EB94E2A43344DBAC988E26 /* libAudiobus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libAudiobus.a; path = libraries/audiobus/1.0.2.5/lib/libAudiobus.a; sourceTree = "<group>"; };
+		4DE1B3BFF2AD4A2AA7D895AE /* ProcessAudioFile.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ProcessAudioFile.mm; path = Classes/ProcessAudioFile/ProcessAudioFile.mm; sourceTree = "<group>"; };
+		4DE88C05707043B4882200C1 /* Chip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Chip.cpp; path = Classes/Chip/Chip.cpp; sourceTree = "<group>"; };
+		4E0FB72B13754B12A54F0D66 /* XorBinaryGate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = XorBinaryGate.cpp; path = Classes/Chip/Gate/BinaryGate/XorBinaryGate.cpp; sourceTree = "<group>"; };
+		4EF1DCAEBC124229B7C3CCCE /* FrequencyControlWordChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = FrequencyControlWordChip.cpp; path = Classes/Chip/FrequencyControlWordChip.cpp; sourceTree = "<group>"; };
+		4F7E611564F64995B7C4AD98 /* MultiplierChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MultiplierChip.h; path = Classes/Chip/MultiplierChip.h; sourceTree = "<group>"; };
+		5158B3B0327944C79678FEB8 /* ADSREnvelopeChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADSREnvelopeChip.h; path = Classes/Chip/ADSREnvelopeChip.h; sourceTree = "<group>"; };
+		51CAB97F25FE46D08466356B /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		52B6FE5909D046AD8FF12E3E /* NorBinaryGate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = NorBinaryGate.cpp; path = Classes/Chip/Gate/BinaryGate/NorBinaryGate.cpp; sourceTree = "<group>"; };
+		588E6DA165384578812F44AA /* SinWaveChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SinWaveChip.cpp; path = Classes/Chip/Wavetable/SinWaveChip.cpp; sourceTree = "<group>"; };
+		5AB821B935824828ADF089CD /* AndBinaryGate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = AndBinaryGate.cpp; path = Classes/Chip/Gate/BinaryGate/AndBinaryGate.cpp; sourceTree = "<group>"; };
+		5C8AED80672A4DB4894EB0B1 /* EdgeTriggeredInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EdgeTriggeredInput.h; path = Classes/ChipIO/ChipInput/EdgeTriggeredInput.h; sourceTree = "<group>"; };
+		5D6C287CF75C44B1BF8B9277 /* ABOutputPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABOutputPort.h; path = libraries/audiobus/1.0.2.5/include/ABOutputPort.h; sourceTree = "<group>"; };
+		6072F34F11B444BD8C60886B /* CAXException.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = CAXException.cpp; path = Classes/ProcessAudioFile/CAXException.cpp; sourceTree = "<group>"; };
+		61E4B866130C4211AE22A495 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = CAStreamBasicDescription.cpp; path = Classes/ProcessAudioFile/CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		64CEDC35AF6842A19CF2A25E /* Pods-MKChipKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKChipKit-Private.xcconfig"; sourceTree = "<group>"; };
+		65C23964FEEF453B9282BA5F /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		68920403C8CA49DBAD62E8F7 /* AndBinaryGate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AndBinaryGate.h; path = Classes/Chip/Gate/BinaryGate/AndBinaryGate.h; sourceTree = "<group>"; };
+		68977EF6AAA246DDB5753C45 /* OrBinaryGate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = OrBinaryGate.cpp; path = Classes/Chip/Gate/BinaryGate/OrBinaryGate.cpp; sourceTree = "<group>"; };
+		69C8C843403149F2B3392541 /* SingleBitOutput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SingleBitOutput.cpp; path = Classes/ChipIO/ChipOutput/SingleBitOutput.cpp; sourceTree = "<group>"; };
+		6C04C1FF4BD84C378C767E28 /* ABAudiobusAudioUnitWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABAudiobusAudioUnitWrapper.h; path = libraries/audiobus/1.0.2.5/include/ABAudiobusAudioUnitWrapper.h; sourceTree = "<group>"; };
+		6DE85556185047E2BF53EC5C /* Pods-MKAudioKit-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKAudioKit-Private.xcconfig"; sourceTree = "<group>"; };
+		71A943296185418A9D215A8B /* AdcChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AdcChip.h; path = Classes/Chip/AdcChip.h; sourceTree = "<group>"; };
+		770350DE07704226BFE4FD9C /* Chip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chip.h; path = Classes/Chip/Chip.h; sourceTree = "<group>"; };
+		7B6704E7D0BA47AD816A8E3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = README.md; path = Classes/README.md; sourceTree = "<group>"; };
+		7B8EB6DD54ED40F49FEB6944 /* ADSREnvelopeChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ADSREnvelopeChip.cpp; path = Classes/Chip/ADSREnvelopeChip.cpp; sourceTree = "<group>"; };
+		7E095DD5D9BF4F9D94E12C87 /* Gate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Gate.cpp; path = Classes/Chip/Gate/Gate.cpp; sourceTree = "<group>"; };
+		80A1C6EE47B54D1D82186C53 /* GroundChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GroundChip.h; path = Classes/Chip/GroundChip.h; sourceTree = "<group>"; };
+		845656A272F8464E8284E500 /* Gate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gate.h; path = Classes/Chip/Gate/Gate.h; sourceTree = "<group>"; };
+		86E07B30354940A79339FFBD /* BinaryGate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BinaryGate.h; path = Classes/Chip/Gate/BinaryGate/BinaryGate.h; sourceTree = "<group>"; };
+		8818B4BF1B2C4B56863C442D /* Pods-MKAudioKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKAudioKit-prefix.pch"; sourceTree = "<group>"; };
+		88803870E24D472B918A402A /* ABPeer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABPeer.h; path = libraries/audiobus/1.0.2.5/include/ABPeer.h; sourceTree = "<group>"; };
+		89FC211741054934870A804B /* ABInputPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABInputPort.h; path = libraries/audiobus/1.0.2.5/include/ABInputPort.h; sourceTree = "<group>"; };
+		8A40A0C99451445BA1837872 /* AdcChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = AdcChip.cpp; path = Classes/Chip/AdcChip.cpp; sourceTree = "<group>"; };
+		91406AD2BBFA458492DCC95A /* Pods-MKAudioKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MKAudioKit-dummy.m"; sourceTree = "<group>"; };
+		92C363FA860F48AD97417226 /* Pods-MKAudioKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKAudioKit.xcconfig"; sourceTree = "<group>"; };
+		937D7BF300E840678C9916E6 /* DelayChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = DelayChip.cpp; path = Classes/Chip/DelayChip.cpp; sourceTree = "<group>"; };
+		9570A1A0526348269F55205D /* Pods-MKChipKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MKChipKit-prefix.pch"; sourceTree = "<group>"; };
+		98643804B9954A659BB57231 /* ABLiveBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABLiveBuffer.h; path = libraries/audiobus/1.0.2.5/include/ABLiveBuffer.h; sourceTree = "<group>"; };
+		9AAC10593B0940BFBE1D629B /* MultiplierChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = MultiplierChip.cpp; path = Classes/Chip/MultiplierChip.cpp; sourceTree = "<group>"; };
+		9AE081613BCD4CF2B796994A /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A56FD2ABB4984586B60F2880 /* ChipOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChipOutput.h; path = Classes/ChipIO/ChipOutput/ChipOutput.h; sourceTree = "<group>"; };
+		A9DD9B7F7B0D495782F5970C /* MKKeyboardView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKKeyboardView.m; path = Classes/MKKeyboardView.m; sourceTree = "<group>"; };
+		AA4868EE62AF4E85996F0D24 /* FloatingVoltageChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = FloatingVoltageChip.cpp; path = Classes/Chip/FloatingVoltageChip.cpp; sourceTree = "<group>"; };
+		AA83CA92249843009354A1C4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		AFF6B96AA785479298D9A208 /* SerialInput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SerialInput.cpp; path = Classes/ChipIO/ChipInput/SerialInput.cpp; sourceTree = "<group>"; };
+		B1CE21C5EF354599BD7AABA8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1D05E963BF244CA9AB8CFBC /* SingleBitInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SingleBitInput.h; path = Classes/ChipIO/ChipInput/SingleBitInput.h; sourceTree = "<group>"; };
+		B4ACFF7D28B44E409E49EB3B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4D8F5C5F35440AF8D5D5D54 /* CircuitBoard.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = CircuitBoard.cpp; path = Classes/CircuitBoard.cpp; sourceTree = "<group>"; };
+		B728CDCBE2F2483A90893F4C /* ChipLibraryInclude.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChipLibraryInclude.h; path = Classes/ChipLibraryInclude.h; sourceTree = "<group>"; };
+		BD86F8271F3941C8819307F9 /* MKKeyboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MKKeyboardView.h; path = Classes/MKKeyboardView.h; sourceTree = "<group>"; };
+		C395DB708AEF460B916D6A3E /* ABAnimatedTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABAnimatedTrigger.h; path = libraries/audiobus/1.0.2.5/include/ABAnimatedTrigger.h; sourceTree = "<group>"; };
+		C3F572498F704FFC8C01B867 /* TimerChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TimerChip.h; path = Classes/Chip/TimerChip.h; sourceTree = "<group>"; };
+		C44D14DCB947407FADA0C0AF /* CircuitBoard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircuitBoard.h; path = Classes/CircuitBoard.h; sourceTree = "<group>"; };
+		C78F2C3B17E545DFB1156D4D /* ABTrigger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABTrigger.h; path = libraries/audiobus/1.0.2.5/include/ABTrigger.h; sourceTree = "<group>"; };
+		C7B2AA524B9A4D0AA33D8189 /* ChipInput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = ChipInput.cpp; path = Classes/ChipIO/ChipInput/ChipInput.cpp; sourceTree = "<group>"; };
+		CCE14043AFDF446B842774EE /* SerialOutput.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = SerialOutput.cpp; path = Classes/ChipIO/ChipOutput/SerialOutput.cpp; sourceTree = "<group>"; };
+		CEB2DF6435014F968DBCA11C /* libPods-MKChipKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKChipKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E11E6A038B40648655B803 /* FloatingVoltageChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatingVoltageChip.h; path = Classes/Chip/FloatingVoltageChip.h; sourceTree = "<group>"; };
+		D7223FAB4C2E494D918256EB /* ABFilterPort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABFilterPort.h; path = libraries/audiobus/1.0.2.5/include/ABFilterPort.h; sourceTree = "<group>"; };
+		DD8ECD937F08491F8565C93E /* NorBinaryGate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NorBinaryGate.h; path = Classes/Chip/Gate/BinaryGate/NorBinaryGate.h; sourceTree = "<group>"; };
+		E033972FCCD044D9B78E78DB /* OrBinaryGate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OrBinaryGate.h; path = Classes/Chip/Gate/BinaryGate/OrBinaryGate.h; sourceTree = "<group>"; };
+		E0E3EE9476B24FE09442F281 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		E1DFA13701D14C169E5BF99E /* MKWhiteKeyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MKWhiteKeyView.m; path = Classes/MKWhiteKeyView.m; sourceTree = "<group>"; };
+		E2A7516E90C141EF950C35A3 /* BinaryGate.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = BinaryGate.cpp; path = Classes/Chip/Gate/BinaryGate/BinaryGate.cpp; sourceTree = "<group>"; };
+		E8AA26745FD64836979DD6D2 /* Register.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = Register.cpp; path = Classes/Register.cpp; sourceTree = "<group>"; };
+		EABE723F94264F9F9B8CA7B2 /* CounterChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = CounterChip.cpp; path = Classes/Chip/CounterChip.cpp; sourceTree = "<group>"; };
+		EB400F026F0A445D9808ADD4 /* PhaseAccumulatorChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = PhaseAccumulatorChip.cpp; path = Classes/Chip/PhaseAccumulatorChip.cpp; sourceTree = "<group>"; };
+		EDD29C819EE14BC1AC5F9C5B /* ABMultiStreamBuffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABMultiStreamBuffer.h; path = libraries/audiobus/1.0.2.5/include/ABMultiStreamBuffer.h; sourceTree = "<group>"; };
+		EE2BE7CC9C7E4078A178D584 /* ABAudiobusController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ABAudiobusController.h; path = libraries/audiobus/1.0.2.5/include/ABAudiobusController.h; sourceTree = "<group>"; };
+		EF1265590CB54933864DACFA /* ChipIO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChipIO.h; path = Classes/ChipIO/ChipIO.h; sourceTree = "<group>"; };
+		EFA0C3121B8B4AF388331713 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CAStreamBasicDescription.h; path = Classes/ProcessAudioFile/CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		F08702E8758B43C596A2AA21 /* Pods-MKChipKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MKChipKit.xcconfig"; sourceTree = "<group>"; };
+		F0C5A996C7D5490CB744A114 /* VccChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = VccChip.cpp; path = Classes/Chip/VccChip.cpp; sourceTree = "<group>"; };
+		F169DCEBFC374A86A7A5BF44 /* VccChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VccChip.h; path = Classes/Chip/VccChip.h; sourceTree = "<group>"; };
+		F256B6BA89164DD1B7145A36 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3CE05E43360453395700CC2 /* ProcessAudioFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ProcessAudioFile.h; path = Classes/ProcessAudioFile/ProcessAudioFile.h; sourceTree = "<group>"; };
+		F580007FD111401499417A48 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.xcconfig; sourceTree = "<group>"; };
+		F70767AB24C84710926ACF52 /* SingleBitOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SingleBitOutput.h; path = Classes/ChipIO/ChipOutput/SingleBitOutput.h; sourceTree = "<group>"; };
+		F70E9E63F0214DFA8C232A19 /* CADebugPrintf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CADebugPrintf.h; path = Classes/ProcessAudioFile/CADebugPrintf.h; sourceTree = "<group>"; };
+		FA93B79DE12A46FE91814A17 /* TimerChip.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = TimerChip.cpp; path = Classes/Chip/TimerChip.cpp; sourceTree = "<group>"; };
+		FA9717FF51B849CAB1314A60 /* PhaseAccumulatorChip.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PhaseAccumulatorChip.h; path = Classes/Chip/PhaseAccumulatorChip.h; sourceTree = "<group>"; };
+		FC3C9D51422C44CFBCB59D3A /* CADebugPrintf.cpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.cpp; name = CADebugPrintf.cpp; path = Classes/ProcessAudioFile/CADebugPrintf.cpp; sourceTree = "<group>"; };
+		FCDA437A47C1437A9B5073BB /* Register.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Register.h; path = Classes/Register.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111E558BBF234EFEAC76E275 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F33ECDAC9384BE797209796 /* Foundation.framework in Frameworks */,
+				B955858B30F7494D98C268D9 /* libPods-MKAudioKit.a in Frameworks */,
+				30E48AFF37BA4D85A80D1FC3 /* libPods-MKChipKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B11726CB5964DB7A848B0AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBC9CB01EFA343DAB28E1646 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB66F3E30504B9ABCA39EB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5991C83962420DA52EE480 /* Accelerate.framework in Frameworks */,
+				B485B16AC523492AAAB2F86E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E344A64748645D48FBE5723 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F3CADE28E4023A53C8425 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		22D4D649341C4E1FA7E439C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43EB94E2A43344DBAC988E26 /* libAudiobus.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D5F3CADE28E4023A53C8425 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F580007FD111401499417A48 /* Pods.xcconfig */,
+				F256B6BA89164DD1B7145A36 /* Pods-acknowledgements.markdown */,
+				51CAB97F25FE46D08466356B /* Pods-acknowledgements.plist */,
+				E0E3EE9476B24FE09442F281 /* Pods-dummy.m */,
+				65C23964FEEF453B9282BA5F /* Pods-environment.h */,
+				9AE081613BCD4CF2B796994A /* Pods-resources.sh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3952739196EA4E3A9D834548 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F08702E8758B43C596A2AA21 /* Pods-MKChipKit.xcconfig */,
+				64CEDC35AF6842A19CF2A25E /* Pods-MKChipKit-Private.xcconfig */,
+				063D4D6E00694257AD61DE6F /* Pods-MKChipKit-dummy.m */,
+				9570A1A0526348269F55205D /* Pods-MKChipKit-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		3B9B8405C26A4F20BEA85AC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A81472D668A4ED3A2B9F0A1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4269900F81AB43EA869F3228 /* MKAudioKit */ = {
+			isa = PBXGroup;
+			children = (
+				23A807548710406EBE7AC047 /* AudioController.h */,
+				0C11681DC09E4052BA8F13D9 /* AudioController.mm */,
+				3114C148E7BC4D239918EE07 /* CADebugMacros.h */,
+				FC3C9D51422C44CFBCB59D3A /* CADebugPrintf.cpp */,
+				F70E9E63F0214DFA8C232A19 /* CADebugPrintf.h */,
+				0BD90861A1E54FD2A1FA17BF /* CAMath.h */,
+				61E4B866130C4211AE22A495 /* CAStreamBasicDescription.cpp */,
+				EFA0C3121B8B4AF388331713 /* CAStreamBasicDescription.h */,
+				6072F34F11B444BD8C60886B /* CAXException.cpp */,
+				42677FA846E34A79BB3A940D /* CAXException.h */,
+				BD86F8271F3941C8819307F9 /* MKKeyboardView.h */,
+				A9DD9B7F7B0D495782F5970C /* MKKeyboardView.m */,
+				375FCFE3C7DE4F26BA3C9C15 /* MKWhiteKeyView.h */,
+				E1DFA13701D14C169E5BF99E /* MKWhiteKeyView.m */,
+				F3CE05E43360453395700CC2 /* ProcessAudioFile.h */,
+				4DE1B3BFF2AD4A2AA7D895AE /* ProcessAudioFile.mm */,
+				83155E24AC104233BB4340CB /* Audiobus */,
+				87CDA2C9BB5C48B1A8715136 /* Support Files */,
+			);
+			path = MKAudioKit;
+			sourceTree = "<group>";
+		};
+		578AFE49A1234427AE0AF347 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4269900F81AB43EA869F3228 /* MKAudioKit */,
+				91C674097ECF47A8A20A050E /* MKChipKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83155E24AC104233BB4340CB /* Audiobus */ = {
+			isa = PBXGroup;
+			children = (
+				C395DB708AEF460B916D6A3E /* ABAnimatedTrigger.h */,
+				6C04C1FF4BD84C378C767E28 /* ABAudiobusAudioUnitWrapper.h */,
+				EE2BE7CC9C7E4078A178D584 /* ABAudiobusController.h */,
+				30670CCE63F24A15B5129DBC /* ABCommon.h */,
+				D7223FAB4C2E494D918256EB /* ABFilterPort.h */,
+				89FC211741054934870A804B /* ABInputPort.h */,
+				98643804B9954A659BB57231 /* ABLiveBuffer.h */,
+				EDD29C819EE14BC1AC5F9C5B /* ABMultiStreamBuffer.h */,
+				5D6C287CF75C44B1BF8B9277 /* ABOutputPort.h */,
+				88803870E24D472B918A402A /* ABPeer.h */,
+				1FFF44EC9DF747E680D3ADBE /* ABPort.h */,
+				C78F2C3B17E545DFB1156D4D /* ABTrigger.h */,
+				01A2FBF01A0945F097E97978 /* Audiobus.h */,
+				22D4D649341C4E1FA7E439C1 /* Frameworks */,
+			);
+			name = Audiobus;
+			sourceTree = "<group>";
+		};
+		87CDA2C9BB5C48B1A8715136 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92C363FA860F48AD97417226 /* Pods-MKAudioKit.xcconfig */,
+				6DE85556185047E2BF53EC5C /* Pods-MKAudioKit-Private.xcconfig */,
+				91406AD2BBFA458492DCC95A /* Pods-MKAudioKit-dummy.m */,
+				8818B4BF1B2C4B56863C442D /* Pods-MKAudioKit-prefix.pch */,
+			);
+			name = "Support Files";
+			sourceTree = SOURCE_ROOT;
+		};
+		91C674097ECF47A8A20A050E /* MKChipKit */ = {
+			isa = PBXGroup;
+			children = (
+				7B8EB6DD54ED40F49FEB6944 /* ADSREnvelopeChip.cpp */,
+				5158B3B0327944C79678FEB8 /* ADSREnvelopeChip.h */,
+				8A40A0C99451445BA1837872 /* AdcChip.cpp */,
+				71A943296185418A9D215A8B /* AdcChip.h */,
+				5AB821B935824828ADF089CD /* AndBinaryGate.cpp */,
+				68920403C8CA49DBAD62E8F7 /* AndBinaryGate.h */,
+				E2A7516E90C141EF950C35A3 /* BinaryGate.cpp */,
+				86E07B30354940A79339FFBD /* BinaryGate.h */,
+				4DE88C05707043B4882200C1 /* Chip.cpp */,
+				770350DE07704226BFE4FD9C /* Chip.h */,
+				1ADC0BF1DE844FB29F4A5B3D /* ChipIO.cpp */,
+				EF1265590CB54933864DACFA /* ChipIO.h */,
+				C7B2AA524B9A4D0AA33D8189 /* ChipInput.cpp */,
+				1603125394A4453AB16DE54E /* ChipInput.h */,
+				B728CDCBE2F2483A90893F4C /* ChipLibraryInclude.h */,
+				1199916763584A379196427C /* ChipOutput.cpp */,
+				A56FD2ABB4984586B60F2880 /* ChipOutput.h */,
+				B4D8F5C5F35440AF8D5D5D54 /* CircuitBoard.cpp */,
+				C44D14DCB947407FADA0C0AF /* CircuitBoard.h */,
+				EABE723F94264F9F9B8CA7B2 /* CounterChip.cpp */,
+				15490CBA9D44409AA8112131 /* CounterChip.h */,
+				39532F6141F84E769A3B9639 /* DacChip.cpp */,
+				3487100046F34AC88FC0400E /* DacChip.h */,
+				937D7BF300E840678C9916E6 /* DelayChip.cpp */,
+				08DAFB0A0B994DA487AAC470 /* DelayChip.h */,
+				33D5C5BA376F4BA7A070C132 /* EdgeTriggeredInput.cpp */,
+				5C8AED80672A4DB4894EB0B1 /* EdgeTriggeredInput.h */,
+				AA4868EE62AF4E85996F0D24 /* FloatingVoltageChip.cpp */,
+				D5E11E6A038B40648655B803 /* FloatingVoltageChip.h */,
+				4EF1DCAEBC124229B7C3CCCE /* FrequencyControlWordChip.cpp */,
+				41E73E547DF149B5B3937744 /* FrequencyControlWordChip.h */,
+				7E095DD5D9BF4F9D94E12C87 /* Gate.cpp */,
+				845656A272F8464E8284E500 /* Gate.h */,
+				2253E9193F224FFA867DA24B /* GroundChip.cpp */,
+				80A1C6EE47B54D1D82186C53 /* GroundChip.h */,
+				9AAC10593B0940BFBE1D629B /* MultiplierChip.cpp */,
+				4F7E611564F64995B7C4AD98 /* MultiplierChip.h */,
+				20C985644E134D399C7EB7E7 /* NandBinaryGate.cpp */,
+				342E5DEC014F41B182B7AC47 /* NandBinaryGate.h */,
+				52B6FE5909D046AD8FF12E3E /* NorBinaryGate.cpp */,
+				DD8ECD937F08491F8565C93E /* NorBinaryGate.h */,
+				68977EF6AAA246DDB5753C45 /* OrBinaryGate.cpp */,
+				E033972FCCD044D9B78E78DB /* OrBinaryGate.h */,
+				EB400F026F0A445D9808ADD4 /* PhaseAccumulatorChip.cpp */,
+				FA9717FF51B849CAB1314A60 /* PhaseAccumulatorChip.h */,
+				7B6704E7D0BA47AD816A8E3D /* README.md */,
+				E8AA26745FD64836979DD6D2 /* Register.cpp */,
+				FCDA437A47C1437A9B5073BB /* Register.h */,
+				1C78F4B53E574FAB8EA81254 /* ResetTimerChip.cpp */,
+				2D328D8A7EC6497782EDB93B /* ResetTimerChip.h */,
+				AFF6B96AA785479298D9A208 /* SerialInput.cpp */,
+				1BDE131165724A34B660AC9E /* SerialInput.h */,
+				CCE14043AFDF446B842774EE /* SerialOutput.cpp */,
+				0868C40052174B79A6D437F7 /* SerialOutput.h */,
+				588E6DA165384578812F44AA /* SinWaveChip.cpp */,
+				1AA9D132385C49DA98F6B1EF /* SinWaveChip.h */,
+				35F3E4D546DF4DEC8E41E164 /* SingleBitInput.cpp */,
+				B1D05E963BF244CA9AB8CFBC /* SingleBitInput.h */,
+				69C8C843403149F2B3392541 /* SingleBitOutput.cpp */,
+				F70767AB24C84710926ACF52 /* SingleBitOutput.h */,
+				FA93B79DE12A46FE91814A17 /* TimerChip.cpp */,
+				C3F572498F704FFC8C01B867 /* TimerChip.h */,
+				F0C5A996C7D5490CB744A114 /* VccChip.cpp */,
+				F169DCEBFC374A86A7A5BF44 /* VccChip.h */,
+				1393CC4D2860489D9176B8F5 /* WavetableChip.cpp */,
+				0C67A4CF536545069B94C13F /* WavetableChip.h */,
+				4E0FB72B13754B12A54F0D66 /* XorBinaryGate.cpp */,
+				161893C9BD1F4878B9B6F0D5 /* XorBinaryGate.h */,
+				3952739196EA4E3A9D834548 /* Support Files */,
+			);
+			path = MKChipKit;
+			sourceTree = "<group>";
+		};
+		9A81472D668A4ED3A2B9F0A1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AA83CA92249843009354A1C4 /* Accelerate.framework */,
+				1E94C0F17E9248B5942B7010 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B84E91699E7540F0A784A58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4ACFF7D28B44E409E49EB3B /* libPods.a */,
+				1DB457A4E3BE42588CAED73C /* libPods-MKAudioKit.a */,
+				CEB2DF6435014F968DBCA11C /* libPods-MKChipKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF16F684AD8E4A9F8BF0C15E = {
+			isa = PBXGroup;
+			children = (
+				B1CE21C5EF354599BD7AABA8 /* Podfile */,
+				3B9B8405C26A4F20BEA85AC2 /* Frameworks */,
+				578AFE49A1234427AE0AF347 /* Pods */,
+				B84E91699E7540F0A784A58C /* Products */,
+				0E344A64748645D48FBE5723 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0011623B1BA04128BFBD2BFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C5B95C82F04961A2D6027B /* ABAnimatedTrigger.h in Headers */,
+				1B5A3A19890E455EB48FB015 /* ABAudiobusAudioUnitWrapper.h in Headers */,
+				F5A4CD31B20D40E89D6328F9 /* ABAudiobusController.h in Headers */,
+				A723D6866E8043E68BE99031 /* ABCommon.h in Headers */,
+				699635B0D1D7423FBF307DA5 /* ABFilterPort.h in Headers */,
+				07BD20E6E74C4D51BB49D160 /* ABInputPort.h in Headers */,
+				92716E729C324C85A136A942 /* ABLiveBuffer.h in Headers */,
+				F1219346C51C40119396116A /* ABMultiStreamBuffer.h in Headers */,
+				E82D7EEA9936440E862470C5 /* ABOutputPort.h in Headers */,
+				97BA7B37910C455D90A1D576 /* ABPeer.h in Headers */,
+				67D62DFA0AA245ECB21F37A3 /* ABPort.h in Headers */,
+				C513493521A6455C88CCCEF2 /* ABTrigger.h in Headers */,
+				077F311E0B4F4DEBB3AF2DBC /* AudioController.h in Headers */,
+				579FD303E28142389D874BF4 /* Audiobus.h in Headers */,
+				40E2B1EADF6046228E0C017D /* CADebugMacros.h in Headers */,
+				EAE69868310C4FF092813DEC /* CADebugPrintf.h in Headers */,
+				9D0721CAE7614C11AC91EE7C /* CAMath.h in Headers */,
+				AE9F6BC1AE234B03914246FF /* CAStreamBasicDescription.h in Headers */,
+				41737B8255194451954F6704 /* CAXException.h in Headers */,
+				48A31663C3AE4BDAA2720C47 /* MKKeyboardView.h in Headers */,
+				D7FF32097D8F4E1BB4412919 /* MKWhiteKeyView.h in Headers */,
+				2DCE31136C0941E79EEC9565 /* ProcessAudioFile.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04C13D96D5147EFB54A3ABC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B40D98EB5449D4B83D361E /* ADSREnvelopeChip.h in Headers */,
+				8C0371E6BA5F4AF5B462A57B /* AdcChip.h in Headers */,
+				179BCA3718304DD6A17490C3 /* AndBinaryGate.h in Headers */,
+				D3EB3748EB9448FCA04D9C0B /* BinaryGate.h in Headers */,
+				5F347658F10D44518CAED9A8 /* Chip.h in Headers */,
+				F88B7290B2014C32B6B22CE1 /* ChipIO.h in Headers */,
+				226D7798822E4AAAB0D9121C /* ChipInput.h in Headers */,
+				46EA19108DBC40AFB6F8D47A /* ChipLibraryInclude.h in Headers */,
+				3627B70B2F7E4E7FB25D590D /* ChipOutput.h in Headers */,
+				1FDD6A2EC33546958588A3C8 /* CircuitBoard.h in Headers */,
+				0926F32757CD46F4B9E4F8B3 /* CounterChip.h in Headers */,
+				AE1576937CB94D1EBBEAC5C8 /* DacChip.h in Headers */,
+				BD6E240E11794642B08818F3 /* DelayChip.h in Headers */,
+				18A8036013084392B8558E92 /* EdgeTriggeredInput.h in Headers */,
+				84E806B8552E46FC84001BC8 /* FloatingVoltageChip.h in Headers */,
+				E9C82191EF124E0699E752DA /* FrequencyControlWordChip.h in Headers */,
+				B0AEA7F8B68A4E3C818C8A19 /* Gate.h in Headers */,
+				9E0A9AED8F3241149B71BFA4 /* GroundChip.h in Headers */,
+				CB7BD42F217D4D53A7202E37 /* MultiplierChip.h in Headers */,
+				289565FA30FE43D7A1E3AFFD /* NandBinaryGate.h in Headers */,
+				5A6EF316DFEF4C36AF183D89 /* NorBinaryGate.h in Headers */,
+				806AF6B8BF734C0D951217DD /* OrBinaryGate.h in Headers */,
+				311BFA782D2642E097291AB7 /* PhaseAccumulatorChip.h in Headers */,
+				CF6CF8725CA14E2DA0448F88 /* Register.h in Headers */,
+				AE8C0123E4F44B739CF4A1E2 /* ResetTimerChip.h in Headers */,
+				BD64F853A4E34A43B307F820 /* SerialInput.h in Headers */,
+				E42569ACE54B4764A49DE5B4 /* SerialOutput.h in Headers */,
+				AA23939877F84AAF971A6664 /* SinWaveChip.h in Headers */,
+				A66F5A8392AB4284B1CFA909 /* SingleBitInput.h in Headers */,
+				E7B940EEBD954351A1BDAC95 /* SingleBitOutput.h in Headers */,
+				5FB14CE176934A6FAAECD73B /* TimerChip.h in Headers */,
+				11EAD7D3817E43C182E036F1 /* VccChip.h in Headers */,
+				9EB2766A571E4562931A0CC3 /* WavetableChip.h in Headers */,
+				5E8E5579BB354F56B2C22779 /* XorBinaryGate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9382095662F84B17B43C88FF /* Pods-MKChipKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3174D2D0D33448A696393CA5 /* Build configuration list for PBXNativeTarget "Pods-MKChipKit" */;
+			buildPhases = (
+				1C2F0F6F1BD34123B9816A93 /* Sources */,
+				4B11726CB5964DB7A848B0AF /* Frameworks */,
+				F04C13D96D5147EFB54A3ABC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MKChipKit";
+			productName = "Pods-MKChipKit";
+			productReference = CEB2DF6435014F968DBCA11C /* libPods-MKChipKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		959AB17941004781BDD4D646 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C0B7CC39101465F96F253B4 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F60E6E365E26464BBB55502F /* Sources */,
+				111E558BBF234EFEAC76E275 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4E7022AADFA43B88D247E7F /* PBXTargetDependency */,
+				0C61C3423AD548FAB7417257 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = B4ACFF7D28B44E409E49EB3B /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BA79701D7B454B9E9A642435 /* Pods-MKAudioKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64721882A0B3433DB1A8DBD8 /* Build configuration list for PBXNativeTarget "Pods-MKAudioKit" */;
+			buildPhases = (
+				1DC5A5F9A4024B8D874D932F /* Sources */,
+				4CB66F3E30504B9ABCA39EB2 /* Frameworks */,
+				0011623B1BA04128BFBD2BFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MKAudioKit";
+			productName = "Pods-MKAudioKit";
+			productReference = 1DB457A4E3BE42588CAED73C /* libPods-MKAudioKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3EC749423A499DA4580D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = FC6806C169174C36A52B164E /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF16F684AD8E4A9F8BF0C15E;
+			productRefGroup = B84E91699E7540F0A784A58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959AB17941004781BDD4D646 /* Pods */,
+				BA79701D7B454B9E9A642435 /* Pods-MKAudioKit */,
+				9382095662F84B17B43C88FF /* Pods-MKChipKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C2F0F6F1BD34123B9816A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2614151BE8841C8954B85EA /* ADSREnvelopeChip.cpp in Sources */,
+				4D525A4110784597B3F3423C /* AdcChip.cpp in Sources */,
+				7CA2D52E91DD4301B331CEB7 /* AndBinaryGate.cpp in Sources */,
+				EB50069892444F79A18F143B /* BinaryGate.cpp in Sources */,
+				B0A7930E0EBA4191A2145F7D /* Chip.cpp in Sources */,
+				94B0D46943474557A19C9E2F /* ChipIO.cpp in Sources */,
+				03AA0BCFA02145C985A4935E /* ChipInput.cpp in Sources */,
+				F3AC0B1877F5473E84ECF7B4 /* ChipOutput.cpp in Sources */,
+				F9FB4CE5E6BA4E45A2B0288D /* CircuitBoard.cpp in Sources */,
+				6DC0925337BF44B1B545397E /* CounterChip.cpp in Sources */,
+				5DD634EF43334D7AA6924D73 /* DacChip.cpp in Sources */,
+				F0399B591CFA48EC812D0ED1 /* DelayChip.cpp in Sources */,
+				27D32AB5746B4EDBABBF809A /* EdgeTriggeredInput.cpp in Sources */,
+				E630AC389A444E73A55BCEDC /* FloatingVoltageChip.cpp in Sources */,
+				2E160A9D5F0C46CFB6E585D4 /* FrequencyControlWordChip.cpp in Sources */,
+				DEBFFF73834E4000B8B9DBF9 /* Gate.cpp in Sources */,
+				591F2BF4F57A4A1FAA912B17 /* GroundChip.cpp in Sources */,
+				322C66DBD03C4D46A1B15309 /* MultiplierChip.cpp in Sources */,
+				76463D8F3DAA4197BDAA6B5B /* NandBinaryGate.cpp in Sources */,
+				531BC9A1C8AD426C8EACFCFF /* NorBinaryGate.cpp in Sources */,
+				AE90475C3E1546889364027F /* OrBinaryGate.cpp in Sources */,
+				9B6B519858E144FDB72B753F /* PhaseAccumulatorChip.cpp in Sources */,
+				887151B6FE9541E09887676D /* Pods-MKChipKit-dummy.m in Sources */,
+				5FE0EC0D71BE4584BEA9B790 /* README.md in Sources */,
+				91BEDC71AD244986963D1320 /* Register.cpp in Sources */,
+				9E0E9E4260304F228C072EC4 /* ResetTimerChip.cpp in Sources */,
+				DD0ABD13D55B4B8C96B2BA8F /* SerialInput.cpp in Sources */,
+				9EE07DFFBAF040519E3E4DAE /* SerialOutput.cpp in Sources */,
+				3DA19B6C474B4877B6E3D587 /* SinWaveChip.cpp in Sources */,
+				6DF3F738C6034B87918E7882 /* SingleBitInput.cpp in Sources */,
+				E74BC8F3BC8F467784D34307 /* SingleBitOutput.cpp in Sources */,
+				DC9D32BD52C2495AA569D475 /* TimerChip.cpp in Sources */,
+				2E0AFFD693B94915AC29C5FC /* VccChip.cpp in Sources */,
+				A98BC028591E4B9794F8A097 /* WavetableChip.cpp in Sources */,
+				1B447B9CFC2B4B3F984A3CB9 /* XorBinaryGate.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC5A5F9A4024B8D874D932F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2D66400D9824784B69C3C52 /* AudioController.mm in Sources */,
+				0EBC72178C3A4F36A42EA307 /* CADebugPrintf.cpp in Sources */,
+				B6F6C0D1A0D74103A7922330 /* CAStreamBasicDescription.cpp in Sources */,
+				562AC28CF6ED4C3AA2E07CEE /* CAXException.cpp in Sources */,
+				C40D868750594692B85595E3 /* MKKeyboardView.m in Sources */,
+				465D10E9E1854869B0EEBDB5 /* MKWhiteKeyView.m in Sources */,
+				A8B368A7CC4A463E81BE8D8E /* Pods-MKAudioKit-dummy.m in Sources */,
+				34D27A8D51BE4E40A68836BF /* ProcessAudioFile.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F60E6E365E26464BBB55502F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2DD1A12E2A496F8AA0476A /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C61C3423AD548FAB7417257 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9382095662F84B17B43C88FF /* Pods-MKChipKit */;
+			targetProxy = 286B888649BC46F19235B838 /* PBXContainerItemProxy */;
+		};
+		A4E7022AADFA43B88D247E7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA79701D7B454B9E9A642435 /* Pods-MKAudioKit */;
+			targetProxy = 046EDC93DAFC49B297CB2160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03960795CEED40B8A10F7A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CEDC35AF6842A19CF2A25E /* Pods-MKChipKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MKChipKit-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49774C6D24274996B8406329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE85556185047E2BF53EC5C /* Pods-MKAudioKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MKAudioKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		51B2C86F5601493F8986D540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		575ECA32487940409B6B9BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CEDC35AF6842A19CF2A25E /* Pods-MKChipKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MKChipKit-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		59487EC5161C40FC945930A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		66040D2726BC4932A61B417F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F580007FD111401499417A48 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		808561D397BC4225AE5840A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DE85556185047E2BF53EC5C /* Pods-MKAudioKit-Private.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pods-MKAudioKit-prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"$(inherited)",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57F2C6164F04632B93B3A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F580007FD111401499417A48 /* Pods.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/xcodeproj.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3174D2D0D33448A696393CA5 /* Build configuration list for PBXNativeTarget "Pods-MKChipKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				575ECA32487940409B6B9BB1 /* Debug */,
+				03960795CEED40B8A10F7A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64721882A0B3433DB1A8DBD8 /* Build configuration list for PBXNativeTarget "Pods-MKAudioKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49774C6D24274996B8406329 /* Debug */,
+				808561D397BC4225AE5840A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C0B7CC39101465F96F253B4 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57F2C6164F04632B93B3A9D /* Debug */,
+				66040D2726BC4932A61B417F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6806C169174C36A52B164E /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59487EC5161C40FC945930A7 /* Debug */,
+				51B2C86F5601493F8986D540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B3EC749423A499DA4580D8F /* Project object */;
+}

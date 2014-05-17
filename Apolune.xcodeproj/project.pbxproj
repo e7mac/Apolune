@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		64BC9C15BC174C3B8E5C514E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D8F0DED4E14D4A9365E48D /* libPods.a */; };
+		A803F5F8191DFA3100044213 /* ApoluneKnobView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A803F5F7191DFA3100044213 /* ApoluneKnobView.mm */; };
 		A880D6E1191614B10033B154 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E0191614B10033B154 /* Foundation.framework */; };
 		A880D6E3191614B10033B154 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E2191614B10033B154 /* CoreGraphics.framework */; };
 		A880D6E5191614B10033B154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A880D6E4191614B10033B154 /* UIKit.framework */; };
@@ -27,7 +28,7 @@
 		A880D7281916BC8E0033B154 /* MKApoluneCircuit.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */; };
 		A880D72B1916C82C0033B154 /* MKHardwareComponentView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D72A1916C82C0033B154 /* MKHardwareComponentView.mm */; };
 		A880D72E1916FE660033B154 /* MKBlueprintItem.mm in Sources */ = {isa = PBXBuildFile; fileRef = A880D72D1916FE660033B154 /* MKBlueprintItem.mm */; };
-		A8CAC688191C9EAB00F96822 /* MKCircuitConnection.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8CAC687191C9EAB00F96822 /* MKCircuitConnection.mm */; };
+		A8DAD9F71927FF170025DE17 /* BentAudioManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8DAD9F61927FF170025DE17 /* BentAudioManager.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		20D8F0DED4E14D4A9365E48D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BB9564B36E347F8BB1B973D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		A803F5F6191DFA3100044213 /* ApoluneKnobView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApoluneKnobView.h; sourceTree = "<group>"; };
+		A803F5F7191DFA3100044213 /* ApoluneKnobView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ApoluneKnobView.mm; sourceTree = "<group>"; };
 		A880D6DD191614B10033B154 /* Apolune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apolune.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A880D6E0191614B10033B154 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A880D6E2191614B10033B154 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -72,8 +75,8 @@
 		A880D72A1916C82C0033B154 /* MKHardwareComponentView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKHardwareComponentView.mm; sourceTree = "<group>"; };
 		A880D72C1916FE660033B154 /* MKBlueprintItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKBlueprintItem.h; sourceTree = "<group>"; };
 		A880D72D1916FE660033B154 /* MKBlueprintItem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKBlueprintItem.mm; sourceTree = "<group>"; };
-		A8CAC686191C9EAB00F96822 /* MKCircuitConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCircuitConnection.h; sourceTree = "<group>"; };
-		A8CAC687191C9EAB00F96822 /* MKCircuitConnection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MKCircuitConnection.mm; sourceTree = "<group>"; };
+		A8DAD9F51927FF170025DE17 /* BentAudioManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BentAudioManager.h; sourceTree = "<group>"; };
+		A8DAD9F61927FF170025DE17 /* BentAudioManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BentAudioManager.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,14 +142,17 @@
 		A880D6E6191614B10033B154 /* Apolune */ = {
 			isa = PBXGroup;
 			children = (
+				A894CC01191E00BC00B2C6D3 /* iPad */,
+				A8DAD9F51927FF170025DE17 /* BentAudioManager.h */,
+				A8DAD9F61927FF170025DE17 /* BentAudioManager.mm */,
 				A880D6EF191614B10033B154 /* MKAppDelegate.h */,
 				A880D6F0191614B10033B154 /* MKAppDelegate.m */,
 				A880D6F2191614B10033B154 /* Main.storyboard */,
 				A880D6F5191614B10033B154 /* MKViewController.h */,
 				A880D6F6191614B10033B154 /* MKViewController.mm */,
+				A803F5F6191DFA3100044213 /* ApoluneKnobView.h */,
+				A803F5F7191DFA3100044213 /* ApoluneKnobView.mm */,
 				A880D7261916BC8E0033B154 /* MKApoluneCircuit.h */,
-				A8CAC686191C9EAB00F96822 /* MKCircuitConnection.h */,
-				A8CAC687191C9EAB00F96822 /* MKCircuitConnection.mm */,
 				A880D7271916BC8E0033B154 /* MKApoluneCircuit.mm */,
 				A880D71819161BC10033B154 /* MKHardwareControlSurfaceView.h */,
 				A880D71919161BC10033B154 /* MKHardwareControlSurfaceView.mm */,
@@ -187,6 +193,13 @@
 				A880D708191614B10033B154 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A894CC01191E00BC00B2C6D3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,9 +338,10 @@
 				A880D72E1916FE660033B154 /* MKBlueprintItem.mm in Sources */,
 				A880D72B1916C82C0033B154 /* MKHardwareComponentView.mm in Sources */,
 				A880D71A19161BC10033B154 /* MKHardwareControlSurfaceView.mm in Sources */,
-				A8CAC688191C9EAB00F96822 /* MKCircuitConnection.mm in Sources */,
 				A880D6F1191614B10033B154 /* MKAppDelegate.m in Sources */,
+				A8DAD9F71927FF170025DE17 /* BentAudioManager.mm in Sources */,
 				A880D6F7191614B10033B154 /* MKViewController.mm in Sources */,
+				A803F5F8191DFA3100044213 /* ApoluneKnobView.mm in Sources */,
 				A880D7281916BC8E0033B154 /* MKApoluneCircuit.mm in Sources */,
 				A880D6ED191614B10033B154 /* main.m in Sources */,
 			);
@@ -458,7 +472,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Apolune/Apolune-Prefix.pch";
 				INFOPLIST_FILE = "Apolune/Apolune-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -472,7 +488,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Apolune/Apolune-Prefix.pch";
 				INFOPLIST_FILE = "Apolune/Apolune-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

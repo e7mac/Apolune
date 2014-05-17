@@ -9,14 +9,15 @@
 #import "MKHardwareControlSurfaceView.h"
 #import "MKHardwareComponentView.h"
 #import "MKBlueprintItem.h"
+#import "ApoluneKnobView.h"
 
 #define TAG_OFFSET 666
 
-@interface MKHardwareControlSurfaceView ()
+@interface MKHardwareControlSurfaceView () <ApoluneKnobViewDelegate>
 
 @property (nonatomic, strong) UIView *startingView;
 @property (nonatomic, assign) BOOL connecting;
-@property (nonatomic, strong) NSMutableArray *lineLayers;
+@property (nonatomic, strong) NSMutableArray *wires;
 @property (nonatomic, strong) NSMutableDictionary *layerToConnection;
 @property (nonatomic, strong) CAShapeLayer *connectingWire;
 
@@ -42,6 +43,15 @@
   return self;
 }
 
+- (NSMutableArray *)wires
+{
+  if (_wires == nil)
+  {
+    _wires = [[NSMutableArray alloc] init];
+  }
+  return _wires;
+}
+
 - (CAShapeLayer *)connectingWire
 {
   if (_connectingWire == nil)
@@ -51,15 +61,6 @@
     _connectingWire.strokeColor = [UIColor clearColor].CGColor;
   }
   return _connectingWire;
-}
-
-- (NSMutableArray *)lineLayers
-{
-  if (_lineLayers == nil)
-  {
-    _lineLayers = [[NSMutableArray alloc] init];
-  }
-  return _lineLayers;
 }
 
 - (NSMutableDictionary *)layerToConnection
@@ -82,15 +83,19 @@
   UITouch *touch = [touches anyObject];
   self.startingView = touch.view;
   CGPoint point = [touch locationInView:self];
-  [self removeConnectionAtPoint:point];
-  [self.layer addSublayer:self.connectingWire];
+  if ([self.startingView class] == [MKHardwareComponentView class]) {
+    [self removeConnectionAtPoint:point];
+    [self.layer addSublayer:self.connectingWire];
+  }
 }
 
 -(void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
   UITouch *touch = [touches anyObject];
   CGPoint point = [touch locationInView:self];
-  self.connectingWire.path = [self pathFromPoint:self.startingView.center toPointB:point].CGPath;
+  if ([self.startingView class] == [MKHardwareComponentView class]) {
+    self.connectingWire.path = [self pathFromPoint:self.startingView.center toPointB:point].CGPath;
+  }
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
@@ -98,10 +103,14 @@
   UITouch *touch = [touches anyObject];
   CGPoint point = [touch locationInView:self];
   UIView *endView = [self hitTest:point withEvent:event];
-  [self connectStartView:self.startingView toEndView:endView];
+  
+  if ([self.startingView class] == [MKHardwareComponentView class] &&
+      [endView class] == [MKHardwareComponentView class]) {
+    [self connectStartView:self.startingView toEndView:endView];
+  }
   self.connectingWire.path = nil;
   self.startingView = nil;
-  self.connecting = NO;
+  self.connecting = NO;  
 }
 
 -(CAShapeLayer *)makeLineLayer:(CALayer *)layer lineFromPointA:(CGPoint)pointA toPointB:(CGPoint)pointB
@@ -131,22 +140,29 @@
 
 -(void)removeConnectionAtPoint:(CGPoint)point
 {
-  CALayer *hitLayer = nil;
-  for (CAShapeLayer *layer in self.lineLayers) {
+  NSDictionary *hitWire = nil;
+  for (NSDictionary *wire in self.wires) {
+    CAShapeLayer *layer = wire[@"lineLayer"];
     CGPathRef path = layer.path;
     if (CGPathContainsPoint(path, nil, point, NO)) {
-      hitLayer = layer;
+      hitWire = wire;
     }
   }
-  if (hitLayer) {
-    [hitLayer removeFromSuperlayer];
-    [self.lineLayers removeObject:hitLayer];
-    NSArray *removedConnection = self.layerToConnection[[hitLayer description]];
-    [self.layerToConnection removeObjectForKey:[hitLayer description]];
-    UIView *startView = removedConnection[0];
-    UIView *endView = removedConnection[1];
-    [self.delegate connectionRemovedFrom:(startView.tag-TAG_OFFSET) to:(endView.tag - TAG_OFFSET)];
+  if (hitWire) {
+    [self removeWire:hitWire];
   }
+}
+
+-(void)removeWire:(NSDictionary *)wire
+{
+  CALayer *hitLayer = wire[@"lineLayer"];
+  [hitLayer removeFromSuperlayer];
+  [self.wires removeObject:wire];
+  NSArray *removedConnection = self.layerToConnection[[hitLayer description]];
+  [self.layerToConnection removeObjectForKey:[hitLayer description]];
+  UIView *startView = removedConnection[0];
+  UIView *endView = removedConnection[1];
+  [self.delegate connectionRemovedFrom:(startView.tag-TAG_OFFSET) to:(endView.tag - TAG_OFFSET)];
 }
 
 -(void)connectStartView:(MKHardwareComponentView *)startView toEndView:(MKHardwareComponentView *)endView
@@ -159,9 +175,21 @@
     startView = endView;
     endView = tempView;
   }
+  //remove connection to input if present
+  [self.wires enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+    NSDictionary *wire = (NSDictionary *)obj;
+    UIView *wireEndView = wire[@"endView"];
+    if (wireEndView == endView) {
+      [self removeWire:wire];
+    }
+  }];
+  
   NSArray *connection = @[startView, endView];
   CAShapeLayer *lineLayer = [self makeLineLayer:self.layer lineFromPointA:startView.center toPointB:endView.center];
-  [self.lineLayers addObject:lineLayer];
+  [self.wires addObject:@{@"startView":startView,
+                          @"endView":endView,
+                          @"lineLayer":lineLayer,
+                          }];
   [self.layerToConnection setObject:connection forKey:[lineLayer description]];
   [self.delegate connectionMadeFrom:(startView.tag-TAG_OFFSET) to:(endView.tag-TAG_OFFSET)];
 }
@@ -188,7 +216,7 @@
       BOOL io = item.pinIsOutput;
       MKHardwareComponentView *view = [[MKHardwareComponentView alloc] initWithFrame:rect];
       [self addSubview:view];
-      view.alpha = arc4random()%100/100.0;
+      view.alpha = arc4random()%100/100.0*0.6 + 0.4;
       if (io) {
         view.mode = MKHardwareComponentViewModeOutput;
       } else {
@@ -197,14 +225,19 @@
       view.tag = tag;
       tag++;
     } else if ([type isEqualToString:@"Knob"]) {
-      MKHardwareComponentView *view = [[MKHardwareComponentView alloc] initWithFrame:rect];
+      ApoluneKnobView *view = [[ApoluneKnobView alloc] initWithFrame:rect];
+      view.blueprintItem = item;
       [self addSubview:view];
-      view.alpha = arc4random()%100/100.0;
-      view.backgroundColor = [UIColor blackColor];
       view.tag = tag;
+      view.delegate = self;
       tag++;
     }
   }
+}
+
+-(void)knob:(ApoluneKnobView *)knob changedValue:(float)value
+{
+  knob.blueprintItem.process(value);
 }
 
 @end
